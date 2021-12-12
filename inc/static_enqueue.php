@@ -1,0 +1,53 @@
+<?php 
+/**
+ * Enqueue scripts and styles.
+ */
+ 
+function carspa_fonts_url() {
+    $fonts_url = '';
+    $fonts     = array();
+    $subsets   = '';
+
+    /* Body font */
+    if ( 'off' !== 'on' ) {
+        $fonts[] = "Rubik:200,300,400,500,600,700,800,900";
+    }
+
+    $is_ssl = is_ssl() ? 'https' : 'http';
+
+    if ( $fonts ) {
+        $fonts_url = add_query_arg( array(
+            'family' => urlencode( implode( '|', $fonts ) ),
+            'subset' => urlencode( $subsets ),
+        ), "$is_ssl://fonts.googleapis.com/css" );
+    }
+
+    return $fonts_url;
+}
+
+
+function carspa_scripts() {
+    wp_enqueue_style('carspafonts', carspa_fonts_url(), array(), null);
+    
+	wp_enqueue_style( 'carspa-style', get_stylesheet_uri(), array(), carspa_VERSION );
+	wp_style_add_data( 'carspa-style', 'rtl', 'replace' );
+
+	wp_enqueue_style( 'Reggae', 'https://fonts.googleapis.com/css2?family=Reggae+One&display=swap', array( 'carspa-style' ), carspa_VERSION );
+	wp_enqueue_style( 'mediaelementplayer', carspa_CSS.'/mediaelementplayer.css', array( 'carspa-style' ), carspa_VERSION );
+	wp_enqueue_style( 'fontawesome', carspa_CSS.'/all.min.css', array( 'carspa-style' ), carspa_VERSION );
+	wp_enqueue_style( 'carspa-icon-moon', carspa_CSS.'/icon-moon.css', array( 'carspa-style' ), carspa_VERSION );
+
+	wp_enqueue_style( 'carspa-style-main', get_theme_file_uri('/assets/css/style.css'), array(), carspa_VERSION );
+	wp_enqueue_style( 'style-carspa', get_theme_file_uri('/assets/css/style-carspa.css'), array(), carspa_VERSION );
+
+   //  Enqueue script   
+	wp_enqueue_script( 'mediaelement-and-player', carspa_JS. '/mediaelement-and-player.min.js', array('jquery'), carspa_VERSION, true );
+	wp_enqueue_script( 'parallaxie', carspa_JS. '/parallaxie.js', array('jquery'), carspa_VERSION, true );
+    wp_enqueue_script( 'carspa-navigation', carspa_JS . '/navigation.js', array(), carspa_VERSION, true );
+	wp_enqueue_script( 'carspa-main', carspa_JS . '/main.js', array('jquery'), carspa_VERSION, true );
+
+	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
+		wp_enqueue_script( 'comment-reply' );
+	}
+}
+add_action( 'wp_enqueue_scripts', 'carspa_scripts' );

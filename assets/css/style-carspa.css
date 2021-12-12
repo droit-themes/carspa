@@ -1,0 +1,360 @@
+.footermenu a{
+	color:#FFFFFF !important;
+}
+
+.carspa_service_list .dl_post_meta{
+	display:none !important;
+}
+
+.footermenu a:hover{
+	color:#EE3131 !important;
+}
+
+.carspa_latest_blog .blog_grid_masonory.style_5 .dl_tag {
+    position: relative;
+    left: auto;
+}
+
+.carspa_latest_blog .blog_grid_masonory.style_5 {
+   box-shadow: 0px 12px 10px #f1f1f1 !important;
+   padding-bottom: 35px !important;
+}
+.carspa_latest_blog .blog_grid_masonory.style_5 .post_thumb{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius:0px;
+}
+
+.service-two .service-left{
+	max-width: 620px;
+	width: 100%;
+	margin: 0 75px 0 auto;
+}
+.service-item-inner .elementor-container{
+	flex-wrap: wrap;
+}
+.service-img div{
+	height: 100%;
+	position: relative;
+}
+
+.Service_tabs .droit-advance-navs{
+	display: block !important;
+}
+ul.dl_tab_menu.droit-advance-navs {
+    padding-bottom: 35px;
+    padding-top: 35px;
+}
+.Service_tabs ul.dl_tab_menu.droit-advance-navs li{
+    padding-bottom:10px !important;
+	padding-top:10px !important;
+	border-left: 1px solid transparent;
+}
+.Service_tabs ul.dl_tab_menu.droit-advance-navs li:hover,.Service_tabs ul.dl_tab_menu.droit-advance-navs li.dl_active {
+    background: rgba(247, 93, 52, 0.08) !important;
+	border-left: 1px solid #EE3131;
+    color: #EE3131 !important;
+}
+.Service_tabs ul.dl_tab_menu.droit-advance-navs li:hover svg path,.Service_tabs ul.dl_tab_menu.droit-advance-navs li.dl_active svg path{
+	fill: #EE3131 !important;
+}
+.Service_tabs ul.dl_tab_menu.droit-advance-navs li .droit-button_icon{
+	display: flex;
+	align-items: center;
+}
+
+
+.Service_tabs .droit-advance-tabs {
+	display: flex;
+	flex-wrap: wrap;
+}
+.Service_tabs .droit-advance-tabs-navs{
+	width: 35%;
+	padding: 0px 15px;
+}
+.Service_tabs .droit-advance-navs .droit-tab-nav-items{
+	justify-content: flex-end;
+}
+.Service_tabs .tab_container{
+	width: 65%;
+	padding:0px 15px;
+}
+.Service_tabs .dl_tab_content_wrapper.dl_active{
+	padding:0px;
+}
+
+.carspa_price  .dl_feature_list_table th img{
+	display: block;
+	margin: 10px auto 18px;
+}
+.carspa_price .dl_feature_list_table td{
+	border-top: 0px;
+	border-bottom: 0px;
+	color: #999999;
+	font-size:14px;
+}
+.carspa_price .dl_feature_list_table tr:first-child td .feature-content{
+	border-top: 1px solid #ededed;
+}
+.carspa_price .dl_feature_list_table td .feature-content{
+	height: 100%;
+	min-height: 38px;
+    line-height: 30px;
+}
+.carspa_price .dl_price_title {
+	display: block;
+	text-align: left;
+}
+.carspa_price table th{
+	padding: 8px 38px 20px !important;
+}
+.carspa_price .dl_feature_list_table th + th .dl_price{
+	margin-top: 36px;
+}
+.carspa_price table td:first-child .feature-content{
+	justify-content: end;
+	padding-left: 22px !important;
+}
+.carspa_price .dl_cu_btn.xl_btn {
+	padding: 11px 37px;
+	line-height:18px !important;
+}
+.carspa_price .dl_title{
+	font-size: 14px;
+	color: #EE3131;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+.carspa_price .price_popular_is{
+	position: relative;
+}
+.carspa_price .is_popular{
+	position:absolute;
+	top: 0;
+	left: 50%;
+	transform: translatex(-50%);
+	padding: 4px 20px 3px 20px;
+	line-height:2;
+}
+.carspa_service_list .dl_blog_grid_masonory_post.style_8 .dl_post_box_content{
+	padding: 25px 30px 10px;
+}
+.carspa_service_list .dl_blog_grid_masonory_post.style_8 .dl_post_box_content .dl_description p {
+	margin-top: 0px;
+}
+
+.carspa_service_list .dl_blog_grid_masonory_post.style_8{
+	margin-bottom: 30px;
+}
+.carspa_service_list{
+	margin-bottom: -30px;
+}
+.dl_feature_list_table button.active{
+	background: #EE3131;
+	color: #fff;
+}
+.carspa_testimonial .dl_client_logo_list{
+	display: none;
+}
+
+.carspa_testimonial .dl_single_testimonial_slider.style_03 .dl_content{
+	font-size: 18px;
+	line-height:30px;
+}
+
+
+@media (min-width: 992px){
+	.service-img img{
+		position: absolute;
+		top: 0;
+		height: 100%;
+		left: 0;
+		width: 100%;
+		object-fit: cover;
+	}
+}
+@media (min-width: 992px) and (max-width:1199px){
+	.service-img img,.service-img{
+		height: 500px;
+	}
+}
+
+@media (max-width:1440px){
+	.service-two .service-left{
+		max-width:720px;
+		margin-right:15px;
+	}
+}
+
+@media (max-width:1200px){
+	.carspa_latest_blog .blog_grid_masonory.style_5 .dl_post_meta{
+		display: flex;
+	}
+	.service-two .service-left{
+		max-width: 100%;
+		width: 100% !important;
+		margin: 0 0px 0 auto;
+	}
+	.carspa_price table th{
+		padding: 8px 12px 20px !important;
+	}
+	.dl_feature_list_table td, .dl_feature_list_table th {
+		width: 237px;
+	}
+	.carspa_price table td:first-child .feature-content{
+		padding-left: 5px !important;
+	}
+	.carspa_price .is_popular{
+		padding: 4px 10px 3px 10px !important;
+	}
+	.single-col-min h3 {
+		margin-top: 13px;
+		margin-bottom: 45px;
+   		font-size: 30px;
+	}
+	.single-col img.icon {
+		right: -166px;
+	}
+	.sub-content-2 h4 {
+	 font-size: 18px;
+	}
+}
+
+@media (max-width: 991px){
+	.carspa_latest_blog .blog_grid_masonory.style_5 .dl_post_meta p:after{
+		display: block;
+	}
+	.service-img img{
+		width: 100%;
+	}
+	.dl_team_member_wrapper {
+		margin-bottom: 40px;
+		max-width: 348px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.carspa_price .dl_container{
+		max-width: 100%;
+	}
+	.carspa_price .dl_container .dl_col_lg_12{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.carspa_price .is_popular {
+		padding: 4px 6px 3px 6px !important;
+		min-width: 120px;
+	}
+	.dl_feature_list_table th + th .dl_price{
+		font-size: 41px;
+	}
+	.dl_feature_list_table th + th .dl_price_duration{
+		font-size:12px;
+	}
+	.Service_tabs .droit-advance-tabs-navs,.Service_tabs .tab_container{
+		width: 100%;
+	}
+	.Service_tabs .droit-advance-tabs-navs{
+		margin-bottom:30px;
+	}
+	.droit-advance-tabs .droit-iconbox-view-default{
+		margin-bottom: 0px !important;
+	}
+}
+@media (max-width:768px){
+	.car-promotion .elementor-container,.carspa_latest_blog .dl_row{
+		justify-content: center;
+	}
+	.carspa-banner .elementor-align-right,.carspa-banner .elementor-align-left{
+		text-align: center;
+	}
+	.car-img .elementor-widget-wrap>.elementor-element.elementor-absolute{
+		position: relative;
+	}
+	.exp-year{
+		max-width: 500px;	
+	}
+	.dl_feature_list_table button{
+		border: 0px;
+	}
+	.dl_feature_list_table .dl_table_nav{
+		padding-bottom: 0px;
+	}
+	.carspa_price .dl_cu_btn.xl_btn {
+		padding: 11px 24px;
+		font-size: 14px;
+	}
+	.blog_title {
+	   font-size:26px;
+    }
+    .blog_breadcrumbs_area_two .banne-blog{
+		font-size: 45px !important;
+	}
+	.single-col img.icon{
+		right: -156px;
+	}
+	.sub-content-2{
+		padding: 0px 20px 20px 30px;
+	}
+	.single-col-min h3 {
+		margin-bottom: 30px;
+	}
+
+.dl_icon_box_wrapper.dl_style_03 {
+    padding: 10px 15px !important;
+}
+
+.admin-bar .droithead.site{
+	margin-top:0px;
+}
+
+.metform-btn{
+    box-shadow: none !important;
+}
+
+.dl_product_compaire .twentytwenty-handle .h-arrow img{
+	width: 9px;
+}
+/*----------------- AR  Newv ------------------------ */
+
+.blog_breadcrumbs_area_two .banne-blog{
+	font-size: 48px;
+	color: #FFFFFF;
+}
+
+
+.page .entry-content li{
+	margin-bottom: 10px;
+}
+
+a{
+ color: #626472;
+}
+#cancel-comment-reply-link{
+	margin-left: 15px;
+}
+.wp-block-search .wp-block-search__button{
+	margin-left: 0px;
+}
+
+.carspa_price table{
+     border:0;
+}
+
+.widget span.post-date {
+    font-size:14px;
+    color:#899097;
+    margin-top:7px;
+}
+
+.footer_left_icon .elementor-icon-list-icon svg{
+	width:32px !important;
+}
+.footer_subscribe .mf-input{
+	color:#FFFFFF !important;
+}
+
+.dl_product_compaire .twentytwenty-handle:before {
+  background: #FF2A39 !important;	
+}
+
+
+

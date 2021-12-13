@@ -4,7 +4,7 @@
     "fields": [
         {
             "key": "field_61383c27dc269",
-            "label": "Active Header",
+            "label": "Active On",
             "name": "active_header",
             "type": "true_false",
             "instructions": "",
@@ -96,7 +96,7 @@
             {
                 "param": "post_type",
                 "operator": "==",
-                "value": "header"
+                "value": "footer"
             }
         ]
     ],
@@ -109,5 +109,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1639371985
+    "modified": 1639393671
 }

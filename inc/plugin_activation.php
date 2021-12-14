@@ -51,7 +51,7 @@ function carspa_resister_required_plugin() {
         array(
             'name'               => esc_html__( 'carspa Core', 'carspa' ), // The plugin name.
             'slug'               => 'carspa-core', // The plugin slug (typically the folder name).
-            'source'             => 'http://preview.droitthemes.com/wp/carspa/downloadfile/carspa-core.zip', // The plugin source.
+            'source'             => 'http://preview.droitthemes.net/wp/carspa/downloadfile/carspa-core.zip', // The plugin source.
             'required'           => true, // If false, the plugin is only 'recommended' instead of required.
             'force_activation'   => false, // If true, plugin is activated upon theme activation and cannot be deactivated until theme switch.
             'force_deactivation' => false, // If true, plugin is deactivated upon theme switch, useful for theme-specific plugins.
@@ -63,7 +63,7 @@ function carspa_resister_required_plugin() {
         array(
             'name'               => esc_html__( 'Advanced Custom Fields-pro', 'carspa' ), // The plugin name.
             'slug'               => 'advanced-custom-fields-pro', // The plugin slug (typically the folder name).
-            'source'             => 'https://droitthemes.com/wpplugin/advanced-custom-fields-pro.zip', // The plugin source.
+            'source'             => 'https://wpplugin.droitthemes.net/common/advanced-custom-fields-pro.zip', // The plugin source.
             'required'           => true, // If false, the plugin is only 'recommended' instead of required.
             'force_activation'   => false, // If true, plugin is activated upon theme activation and cannot be deactivated until theme switch.
             'force_deactivation' => false, // If true, plugin is deactivated upon theme switch, useful for theme-specific plugins.

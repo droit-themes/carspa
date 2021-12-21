@@ -13,7 +13,6 @@ function carspa_admin_enqueues() {
         
         if($screen->base == 'toplevel_page_carspa_options') {
             wp_enqueue_style( 'carspa-redux-style', carspa_CSS.'/redux-style.css' );
-            wp_enqueue_style( 'carspa-sofiapro', carspa_CSS.'/sofiapro.css' );
         }
     }
     

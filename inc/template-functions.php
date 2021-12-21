@@ -199,7 +199,7 @@ if(!function_exists('carspa_wrapper_start')) {
 
 		?>
 		 <div class="container sec_padding">
-			<div class="<?php esc_attr_e($row_class); ?>">
+			<div class="<?php esc_attr($row_class,'carspa'); ?>">
 				<div class="col-lg-8">
 		<?php
      

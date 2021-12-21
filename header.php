@@ -31,7 +31,6 @@
         if (isset($post->ID) && function_exists('header_footer_template_id')) {
             $header_id = header_footer_template_id('header', $post->ID);
         }
-        
             if ( $header_id != '' && class_exists('\Elementor\Plugin' ) ) {
             echo \Elementor\Plugin::instance()->frontend->get_builder_content_for_display( $header_id );
         }else{

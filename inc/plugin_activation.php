@@ -51,7 +51,7 @@ function carspa_resister_required_plugin() {
 		array(
 			'name'               => esc_html__( 'Carspa Core', 'carspa' ), // The plugin name.
 			'slug'               => 'carspa-core', // The plugin slug (typically the folder name).
-			'source'             => 'http://preview.droitthemes.com/wp/carspa/downloadfile/carspa-core.zip', // The plugin source.
+			'source'             => 'http://preview.droitthemes.net/wp/carspa/downloadfile/carspa-core.zip', // The plugin source.
 			'required'           => true, // If false, the plugin is only 'recommended' instead of required.
 			'force_activation'   => false, // If true, plugin is activated upon theme activation and cannot be deactivated until theme switch.
 			'force_deactivation' => false, // If true, plugin is deactivated upon theme switch, useful for theme-specific plugins.
@@ -67,12 +67,6 @@ function carspa_resister_required_plugin() {
 			'name'               => esc_html__( 'Advanced Custom Fields', 'carspa' ),
 			'slug'               => 'advanced-custom-fields',
 			'required'           => true,
-		),
-
-		array(
-			'name'      => esc_html__( 'Metform', 'carspa' ),
-			'slug'      => 'metform',
-			'required'  => true,
 		),
 
 		array(

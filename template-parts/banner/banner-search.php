@@ -2,7 +2,7 @@
   
 $banner_url = carspa_options('carspa_search_banner_upload');
 
-$banner_background_url = carspa_IMAGES.'/blog/banner/blog_details_img.jpg';
+$banner_background_url = CARSPA_IMAGES.'/blog/banner/blog_details_img.jpg';
 
 if($banner_url && !empty($banner_url['url'])) {
     $banner_background_url = $banner_url['url'];

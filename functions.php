@@ -11,34 +11,34 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
 }
 
-if ( ! defined( 'carspa_VERSION' ) ) {
+if ( ! defined( 'CARSPA_VERSION' ) ) {
 	// Replace the version number of the theme on each release.
-	define( 'carspa_VERSION', wp_get_theme()->get( 'Version' ) );
+	define( 'CARSPA_VERSION', wp_get_theme()->get( 'Version' ) );
 }
 
-if ( ! defined( 'carspa_THEMEROOT' ) ) {
+if ( ! defined( 'CARSPA_THEMEROOT' ) ) {
 	// Replace the version number of the theme on each release.
-	define( 'carspa_THEMEROOT', get_template_directory_uri());
+	define( 'CARSPA_THEMEROOT', get_template_directory_uri());
 }
 
-if ( ! defined( 'carspa_THEMEROOT_DIR' ) ) {
+if ( ! defined( 'CARSPA_THEMEROOT_DIR' ) ) {
 	// Replace the version number of the theme on each release.
-	define( 'carspa_THEMEROOT_DIR', get_template_directory());
+	define( 'CARSPA_THEMEROOT_DIR', get_template_directory());
 }
 
-if ( ! defined( 'carspa_IMAGES' ) ) {
+if ( ! defined( 'CARSPA_IMAGES' ) ) {
 	// Replace the version number of the theme on each release.
-	define( 'carspa_IMAGES', carspa_THEMEROOT.'/assets/images');
+	define( 'CARSPA_IMAGES', CARSPA_THEMEROOT.'/assets/images');
 }
 
-if ( ! defined( 'carspa_CSS' ) ) {
+if ( ! defined( 'CARSPA_CSS' ) ) {
 	// Replace the version number of the theme on each release.
-	define( 'carspa_CSS', carspa_THEMEROOT.'/assets/css');
+	define( 'CARSPA_CSS', CARSPA_THEMEROOT.'/assets/css');
 }
 
-if ( ! defined( 'carspa_JS' ) ) {
+if ( ! defined( 'CARSPA_JS' ) ) {
 	// Replace the version number of the theme on each release.
-	define( 'carspa_JS', carspa_THEMEROOT.'/assets/js');
+	define( 'CARSPA_JS', CARSPA_THEMEROOT.'/assets/js');
 }
 
 
@@ -173,13 +173,13 @@ add_action( 'widgets_init', 'carspa_widgets_init' );
 /**
  * carspa required function init  
  */
-require_once carspa_THEMEROOT_DIR . '/inc/init.php'; 
+require_once CARSPA_THEMEROOT_DIR . '/inc/init.php';
 
 /**
  *  carspa options and metabox init 
  */
 
-require_once carspa_THEMEROOT_DIR . '/lib/init.php'; 
+require_once CARSPA_THEMEROOT_DIR . '/lib/init.php';
 
 /**
  * Block Patterns.

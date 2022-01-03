@@ -8,7 +8,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
 }
 
-require carspa_THEMEROOT_DIR . '/lib/options/opt-config.php';
+require CARSPA_THEMEROOT_DIR . '/lib/options/opt-config.php';
 
 /**
  * Saving automatically the ACF group fields json files

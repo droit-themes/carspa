@@ -50,7 +50,7 @@ Redux::set_section('carspa', array(
             'url'      => true,
             'title'    => __('Upload Banner', 'carspa'),
             'default'  => array(
-                'url'=> carspa_IMAGES.'/blog/banner/blog_details_img.jpg',
+                'url'=> CARSPA_IMAGES.'/blog/banner/blog_details_img.jpg',
             ),
             'url'      => false
 
@@ -120,7 +120,7 @@ Redux::set_section('carspa', array(
             'url'      => true,
             'title'    => __('Upload Banner', 'carspa'),
             'default'  => array(
-                'url'=> carspa_IMAGES.'/blog/banner/blog_details_img.jpg',
+                'url'=> CARSPA_IMAGES.'/blog/banner/blog_details_img.jpg',
             ),
             'url'      => false
 
@@ -185,7 +185,7 @@ Redux::set_section('carspa', array(
             'url'      => true,
             'title'    => __('Upload Banner', 'carspa'),
             'default'  => array(
-                'url'=> carspa_IMAGES.'/blog/banner/blog_details_img.jpg',
+                'url'=> CARSPA_IMAGES.'/blog/banner/blog_details_img.jpg',
             ),
             'url'      => false
 
@@ -258,7 +258,7 @@ Redux::set_section('carspa', array(
             'url'      => true,
             'title'    => __('Upload Banner', 'carspa'),
             'default'  => array(
-                'url'=> carspa_IMAGES.'/blog/banner/blog_details_img.jpg',
+                'url'=> CARSPA_IMAGES.'/blog/banner/blog_details_img.jpg',
             ),
             'url'      => false
 

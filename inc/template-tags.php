@@ -203,8 +203,8 @@ function carspa_is_comment_by_post_author( $comment = null ) {
 
 		function carspa_logo () {
            
-			$logo_option_url = carspa_IMAGES.'/default_logo/logo.png';
-			$sticky_logo_option = carspa_IMAGES.'/default_logo/logo_sticky.png';
+			$logo_option_url = CARSPA_IMAGES.'/default_logo/logo.png';
+			$sticky_logo_option = CARSPA_IMAGES.'/default_logo/logo_sticky.png';
 			$sticky_ratina_sticky_url = '';
 			$sticky_ratina_attr = '';
 			$ratena_url = '';

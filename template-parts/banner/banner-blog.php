@@ -10,7 +10,7 @@
   $how_title = carspa_options('carspa_blog_banner_title', 'show');
   $title = carspa_options('carspa_blog_title', get_bloginfo('name'));
   $show_breadcrumbs = carspa_options('carspa_blog_banner_breadcrumb', 'show');
-  $banner_background_url = carspa_IMAGES.'/blog/banner/blog_details_img.jpg';
+  $banner_background_url = CARSPA_IMAGES.'/blog/banner/blog_details_img.jpg';
  
   
  if($banner_url && !empty($banner_url['url'])) {

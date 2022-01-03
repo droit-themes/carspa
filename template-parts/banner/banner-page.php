@@ -11,7 +11,7 @@ $banner_url_page= carspa_page_meta('banner_background_image', get_the_ID());
 $how_title = carspa_options('carspa_page_banner_title', 'show');
 $show_breadcrumbs = carspa_options('carspa_page_banner_breadcrumb', 'show');
 
-$banner_background_url = carspa_IMAGES.'/blog/banner/blog_details_img.jpg';
+$banner_background_url = CARSPA_IMAGES.'/blog/banner/blog_details_img.jpg';
 
 if($banner_url_page && $banner_url_page != ''){
     $banner_background_url = $banner_url_page;

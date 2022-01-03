@@ -21,7 +21,7 @@ Redux::set_section( 'carspa', array(
             'id'        => 'carspa_logo',
             'type'      => 'media',
             'default'   => array(
-                'url'   => carspa_IMAGES.'/default_logo/logo.png'
+                'url'   => CARSPA_IMAGES.'/default_logo/logo.png'
             )
         ),
 
@@ -30,7 +30,7 @@ Redux::set_section( 'carspa', array(
             'id'        => 'carspa_sticky_logo',
             'type'      => 'media',
             'default'   => array(
-                'url'   => carspa_IMAGES.'/default_logo/logo_sticky.png'
+                'url'   => CARSPA_IMAGES.'/default_logo/logo_sticky.png'
             )
         ),
 

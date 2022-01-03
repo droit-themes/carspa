@@ -38,7 +38,7 @@ if ( post_password_required() ) {
 			} else {
 				printf( 
 					/* translators: 1: comment count number, 2: title. */
-					esc_html( '%1$s Comments &ldquo;%2$s&rdquo;', '%1$s Comments', $whal_comment_count, 'carspa' ),
+					esc_html( '%1$s Comments &ldquo;%2$s&rdquo;', '%1$s Comments', $carspa_comment_count, 'carspa' ),
 					number_format_i18n( $carspa_comment_count ), // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 					'<span>' . wp_kses_post( get_the_title() ) . '</span>'
 				);

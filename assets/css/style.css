@@ -7031,6 +7031,7 @@ textarea.form-control-lg {
     transform: translateY(0);
     opacity: 1;
     visibility: visible;
+    right: 0;
 }
 
 .menu-search-form {
@@ -8432,7 +8433,7 @@ dl dd a:hover {
 }
 
 .comment_box .comment > ul {
-    margin-left: 100px;
+    margin-left: 70px;
     margin-top: 17px;
     padding: 0px;
     list-style: none;
@@ -8550,11 +8551,18 @@ dl dd a:hover {
 }
 
 .comment_box .comments_item .content h4 {
-    color: #1E1E1E;
     margin-bottom: 0px;
     margin-top: 0;
 }
-
+li.comment.depth-1:not(:first-child) .content h4{
+    color: #1E1E1E;
+}
+.comment-respond .comment-reply-title > small{
+    margin-left: 15px;
+}
+.comment-form{
+    padding-bottom: 25px;
+}
 .comment_box .comments_item .content .comment-date {
     padding-top: 5px;
 }
@@ -9409,15 +9417,6 @@ h2 a:hover {
 
 a:visited {
     color: #1E1E1E;
-}
-
-a:focus {
-    outline: thin dotted;
-}
-
-a:hover,
-a:active {
-    outline: 0;
 }
 
 .list-unstyled {

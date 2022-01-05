@@ -376,3 +376,192 @@ a{
     top: -1100px;
     z-index: 99;
 }}
+
+/*Customizer Css*/
+
+.home_menu_close_icon .fa-window-close:before {
+	content: "\f410";
+	color: black;
+}
+.search_cart:before{
+	content: none;
+}
+.drdt_sticky_fixed .nav-link.search-btn {
+	color: #1E1E1E;
+}
+.carspa_price table td:first-child .feature-content{
+	justify-content: start;
+}
+
+.nav_box_shadow .droit-advance-navs{
+	background: #FFFFFF;
+	box-shadow: 0px 5px 15px #F1F1F1;
+	border-radius: 5px;
+	margin-right: 25px;
+}
+
+.book_now_position .elementor-element-populated{
+	position: absolute;
+	left: 0;
+	top: -1100px;
+	z-index: 99;
+}
+@media(max-width:575px){
+	.book_now_position .elementor-element-populated{
+		position: unset;
+	}
+	.contact_form_carspa .dl_contact_form_wrapper.dl_cf7_form_02 label {
+		width: 100% !important;
+	}
+	.contact_name {
+		flex-direction: column;
+	}
+	label.contact_two {
+		margin-top: -24px;
+	}
+}
+/*start code css subscribe and pricing form*/
+.button_style_subscribe .dl_btn_hover_style_one {
+	font-size: 18px;
+	position: absolute;
+	top: 3px;
+	right: 3px;
+}
+
+@media (max-width: 768px){
+	.love_clients_slider
+	.dl_adv_swiper_navigation {
+		display: none;
+	}
+	.dl_pro_subscribe_form_action.dl-pro-sub-inline .dl_pro_subscribe_form .dl_cu_btn{
+		width: auto;
+	}
+	.dl_pro_subscribe_form_action.dl-pro-sub-inline .dl_pro_subscribe_form .dl_form_control_wrap{
+		margin: 0px;
+	}
+}
+.button_style_subscribe .dl_btn_hover_style_one::after {
+	content: "";
+	position: relative;
+	left: -5px;
+	top: 2px;
+	width: 22px;
+	height: 21px;
+	background: url(https://preview.droitthemes.net/wp/carspa/wp-content/uploads/2022/01/Vector-2.png) no-repeat;
+	display: inline-block;
+	background-size: contain;
+}
+.button_style_subscribe .dl_pro_subscribe_form .dl_form_control{
+	background-color: #002260;
+	border: none;
+}
+.pricing_contact_form .fullname {
+	display: flex;
+	justify-content: space-between;
+	opacity: .5;
+}
+.pricing_contact_form .service_pricing {
+	display: flex;
+	justify-content: space-between;
+	opacity: .5;
+}
+.pricing_contact_form .note_pricing{
+	opacity: .5;
+}
+.pricing_contact_form .wpcf7-form-control-wrap.your-name {
+	margin-right: 10px;
+	width: 50%;
+}
+.pricing_contact_form .wpcf7-form-control-wrap.tel-441 {
+	margin-left: 10px;
+	width: 50%;
+}
+.pricing_contact_form .dl_contact_form_wrapper.dl_cf7_form_02 .wpcf7-form-control{
+	border-bottom: 1px solid #bdbaba;
+	font-family: Rubik;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 22px;
+	color: #333;
+}
+.pricing_contact_form .wpcf7-form-control-wrap.menu-444 {
+	width: 50%;
+	margin-right: 10px;
+}
+.pricing_contact_form .wpcf7-form-control-wrap.date-703 {
+	width: 50%;
+	margin-left: 10px;
+}
+.pricing_contact_form .wpcf7-form-control.wpcf7-select.wpcf7-validates-as-required {
+	padding: 0px;
+}
+.pricing_contact_form .dl_contact_form_wrapper.dl_cf7_form_02 textarea.wpcf7-form-control {
+	min-height: 80px;
+}
+.pricing_contact_form .dl_contact_form_wrapper.dl_cf7_form_02 .wpcf7-form-control:focus {
+	border: none;
+}
+/*end code css subscribe and pricing form*/
+/*start code css subscribe and contact form*/
+
+.contact_name {
+	display: flex;
+	justify-content: space-between;
+}
+.contact_form_carspa .dl_contact_form_wrapper.dl_cf7_form_02 label {
+	width: 48.5%;
+}
+.faq_image_size .img.attachment-full.size-full {
+	height: unset;
+	max-width: unset;
+}
+/*end code css subscribe and contact form*/
+
+/*start love clients slider*/
+.love_clients_slider .swiper_adv_nav_button{
+	top: 30px !important;
+	left: -30%;
+}
+.dl_pro_subscribe_form{
+	position: relative;
+}
+/*end love clients slider*/
+.pagination_button .dl_swiper_adv_pagination.swiper-pagination-clickable.swiper-pagination-bullets {
+	z-index: 99;
+}
+@media(max-width:767px){
+	.drdt_navmenu .menu-item .sub-menu {
+
+	}
+}
+@media(max-width: 928px){
+	.love_clients_slider .swiper_adv_button_prev.swiper_adv_nav_button {
+		display: none;
+	}
+	.love_clients_slider
+	.swiper_adv_button_next.swiper_adv_nav_button{
+		display: none;
+	}
+}
+
+.service_inner > .elementor-widget-wrap{
+	max-width: 865px;
+	margin-left: auto;
+	margin-right: 0;
+}
+@media (min-width: 1921px){
+	.service_inner > .elementor-widget-wrap {
+		margin-right: 80px;
+	}
+}
+@media (max-width: 1440px){
+	.service_inner > .elementor-widget-wrap {
+		max-width: 795px;
+	}
+}
+@media (max-width: 1366px){
+	.service_inner > .elementor-widget-wrap {
+		max-width: 720px;
+	}
+}

@@ -14,9 +14,9 @@ if ( ! defined( 'ABSPATH' ) ) {
     $args = array(
         'display_name'         => $theme->get( 'Name' ),
         'display_version'      => $theme->get( 'Version' ),
-        'menu_title'           => esc_html__( 'carspa Options', 'carspa' ),
+        'menu_title'           => esc_html__( 'Carspa Options', 'carspa' ),
         'customizer'           => true,
-		'dev_mode'             => 'true'
+		'dev_mode'             => false
     );
 
     Redux::setArgs( $opt_name, $args );

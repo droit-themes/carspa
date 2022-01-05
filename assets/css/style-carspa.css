@@ -11,13 +11,13 @@
 }
 
 .carspa_latest_blog .blog_grid_masonory.style_5 .dl_tag {
-    position: relative;
-    left: auto;
+	position: relative;
+	left: auto;
 }
 
 .carspa_latest_blog .blog_grid_masonory.style_5 {
-   box-shadow: 0px 12px 10px #f1f1f1 !important;
-   padding-bottom: 35px !important;
+	box-shadow: 0px 12px 10px #f1f1f1 !important;
+	padding-bottom: 35px !important;
 }
 .carspa_latest_blog .blog_grid_masonory.style_5 .post_thumb{
 	border-bottom-left-radius: 0px;
@@ -41,18 +41,18 @@
 	display: block !important;
 }
 ul.dl_tab_menu.droit-advance-navs {
-    padding-bottom: 35px;
-    padding-top: 35px;
+	padding-bottom: 35px;
+	padding-top: 35px;
 }
 .Service_tabs ul.dl_tab_menu.droit-advance-navs li{
-    padding-bottom:10px !important;
+	padding-bottom:10px !important;
 	padding-top:10px !important;
 	border-left: 1px solid transparent;
 }
 .Service_tabs ul.dl_tab_menu.droit-advance-navs li:hover,.Service_tabs ul.dl_tab_menu.droit-advance-navs li.dl_active {
-    background: rgba(247, 93, 52, 0.08) !important;
+	background: rgba(247, 93, 52, 0.08) !important;
 	border-left: 1px solid #EE3131;
-    color: #EE3131 !important;
+	color: #EE3131 !important;
 }
 .Service_tabs ul.dl_tab_menu.droit-advance-navs li:hover svg path,.Service_tabs ul.dl_tab_menu.droit-advance-navs li.dl_active svg path{
 	fill: #EE3131 !important;
@@ -98,7 +98,7 @@ ul.dl_tab_menu.droit-advance-navs {
 .carspa_price .dl_feature_list_table td .feature-content{
 	height: 100%;
 	min-height: 38px;
-    line-height: 30px;
+	line-height: 30px;
 }
 .carspa_price .dl_price_title {
 	display: block;
@@ -208,14 +208,11 @@ ul.dl_tab_menu.droit-advance-navs {
 	}
 	.single-col-min h3 {
 		margin-top: 13px;
-		margin-bottom: 45px;
-   		font-size: 30px;
-	}
-	.single-col img.icon {
-		right: -166px;
+		margin-bottom: 20px;
+		font-size: 30px;
 	}
 	.sub-content-2 h4 {
-	 font-size: 18px;
+		font-size: 18px;
 	}
 }
 
@@ -258,126 +255,150 @@ ul.dl_tab_menu.droit-advance-navs {
 	.droit-advance-tabs .droit-iconbox-view-default{
 		margin-bottom: 0px !important;
 	}
+	.drdt-nav-menu__layout-horizontal .menu-item.drdt-has-submenu .drdt-has-submenu-container .sub-arrow{
+		font-size: 11px !important;
+	}
 }
-@media (max-width:768px){
-	.car-promotion .elementor-container,.carspa_latest_blog .dl_row{
+@media (max-width:768px) {
+	.car-promotion .elementor-container, .carspa_latest_blog .dl_row {
 		justify-content: center;
 	}
-	.carspa-banner .elementor-align-right,.carspa-banner .elementor-align-left{
+
+	.carspa-banner .elementor-align-right, .carspa-banner .elementor-align-left {
 		text-align: center;
 	}
-	.car-img .elementor-widget-wrap>.elementor-element.elementor-absolute{
+
+	.car-img .elementor-widget-wrap > .elementor-element.elementor-absolute {
 		position: relative;
 	}
-	.exp-year{
-		max-width: 500px;	
+
+	.exp-year {
+		max-width: 500px;
 	}
-	.dl_feature_list_table button{
+
+	.dl_feature_list_table button {
 		border: 0px;
 	}
-	.dl_feature_list_table .dl_table_nav{
+
+	.dl_feature_list_table .dl_table_nav {
 		padding-bottom: 0px;
 	}
+
 	.carspa_price .dl_cu_btn.xl_btn {
 		padding: 11px 24px;
 		font-size: 14px;
 	}
+
 	.blog_title {
-	   font-size:26px;
-    }
-    .blog_breadcrumbs_area_two .banne-blog{
+		font-size: 26px;
+	}
+
+	.blog_breadcrumbs_area_two .banne-blog {
 		font-size: 45px !important;
 	}
-	.single-col img.icon{
+
+	.single-col img.icon {
 		right: -156px;
 	}
-	.sub-content-2{
-		padding: 0px 20px 20px 30px;
-	}
+
 	.single-col-min h3 {
 		margin-bottom: 30px;
 	}
 
-.dl_icon_box_wrapper.dl_style_03 {
-    padding: 10px 15px !important;
-}
+	.dl_icon_box_wrapper.dl_style_03 {
+		padding: 10px 15px !important;
+	}
 
-.admin-bar .droithead.site{
-	margin-top:0px;
-}
+	.admin-bar .droithead.site {
+		margin-top: 0px;
+	}
 
-.metform-btn{
-    box-shadow: none !important;
-}
+	.metform-btn {
+		box-shadow: none !important;
+	}
 
-.dl_product_compaire .twentytwenty-handle .h-arrow img{
-	width: 9px;
-}
-/*----------------- AR  Newv ------------------------ */
+	.dl_product_compaire .twentytwenty-handle .h-arrow img {
+		width: 9px;
+	}
 
-.blog_breadcrumbs_area_two .banne-blog{
-	font-size: 48px;
-	color: #FFFFFF;
-}
+	/*----------------- AR  Newv ------------------------ */
+	.blog_breadcrumbs_area_two .banne-blog {
+		font-size: 48px;
+		color: #FFFFFF;
+	}
 
 
-.page .entry-content li{
-	margin-bottom: 10px;
-}
+	.page .entry-content li {
+		margin-bottom: 10px;
+	}
 
-a{
- color: #626472;
-}
-#cancel-comment-reply-link{
-	margin-left: 15px;
-}
-.wp-block-search .wp-block-search__button{
-	margin-left: 0px;
-}
+	a {
+		color: #626472;
+	}
 
-.carspa_price table{
-     border:0;
-}
+	#cancel-comment-reply-link {
+		margin-left: 15px;
+	}
 
-.widget span.post-date {
-    font-size:14px;
-    color:#899097;
-    margin-top:7px;
-}
+	.wp-block-search .wp-block-search__button {
+		margin-left: 0px;
+	}
 
-.footer_left_icon .elementor-icon-list-icon svg{
-	width:32px !important;
-}
-.footer_subscribe .mf-input{
-	color:#FFFFFF !important;
-}
+	.carspa_price table {
+		border: 0;
+	}
 
-.dl_product_compaire .twentytwenty-handle:before {
-  background: #FF2A39 !important;	
-}
+	.widget span.post-date {
+		font-size: 14px;
+		color: #899097;
+		margin-top: 7px;
+	}
 
-.search_cart:before{
-	content: none;
-}
-.carspa_price table td:first-child .feature-content{
-	justify-content: start;
-}
+	.footer_left_icon .elementor-icon-list-icon svg {
+		width: 32px !important;
+	}
 
-.nav_box_shadow .droit-advance-navs{
+	.footer_subscribe .mf-input {
+		color: #FFFFFF !important;
+	}
+
+	.dl_product_compaire .twentytwenty-handle:before {
+		background: #FF2A39 !important;
+	}
+
+	.search_cart:before {
+		content: none;
+	}
+
+	.carspa_price table td:first-child .feature-content {
+		justify-content: start;
+	}
+
+	.nav_box_shadow .droit-advance-navs {
 		background: #FFFFFF;
 		box-shadow: 0px 5px 15px #F1F1F1;
 		border-radius: 5px;
 		margin-right: 25px;
+	}
+
+	.book_now_position .elementor-element-populated {
+		position: absolute;
+		left: 0;
+		top: -1100px;
+		z-index: 99;
+	}
+
+
+	.service_inner > .elementor-widget-wrap {
+		max-width: 500px;
+		margin-left: auto;
+		margin-right: 0;
+	}
+
+
 }
 
-.book_now_position .elementor-element-populated{
-		position: absolute;
-    left: 0;
-    top: -1100px;
-    z-index: 99;
-}}
-
-/*Customizer Css*/
+/* customizer css*/
 
 .home_menu_close_icon .fa-window-close:before {
 	content: "\f410";
@@ -427,7 +448,15 @@ a{
 	top: 3px;
 	right: 3px;
 }
+@media (min-width: 320px) and (max-width: 480px) {
 
+	/*   .button_style_subscribe .dl_btn_hover_style_one{
+            right: 64px;
+        top: 11px;
+        width: 24% !important;
+        } */
+
+}
 @media (max-width: 768px){
 	.love_clients_slider
 	.dl_adv_swiper_navigation {
@@ -441,15 +470,16 @@ a{
 	}
 }
 .button_style_subscribe .dl_btn_hover_style_one::after {
-	content: "";
-	position: relative;
-	left: -5px;
-	top: 2px;
-	width: 22px;
-	height: 21px;
-	background: url(https://preview.droitthemes.net/wp/carspa/wp-content/uploads/2022/01/Vector-2.png) no-repeat;
-	display: inline-block;
-	background-size: contain;
+    content: "";
+    position: relative;
+    left: 0px;
+    top: 1px;
+    width: 22px;
+    height: 21px;
+    background: url(https://preview.droitthemes.net/wp/carspa/wp-content/uploads/2022/01/Vector-2.png) no-repeat;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
 }
 .button_style_subscribe .dl_pro_subscribe_form .dl_form_control{
 	background-color: #002260;
@@ -530,11 +560,7 @@ a{
 .pagination_button .dl_swiper_adv_pagination.swiper-pagination-clickable.swiper-pagination-bullets {
 	z-index: 99;
 }
-@media(max-width:767px){
-	.drdt_navmenu .menu-item .sub-menu {
 
-	}
-}
 @media(max-width: 928px){
 	.love_clients_slider .swiper_adv_button_prev.swiper_adv_nav_button {
 		display: none;
@@ -564,4 +590,51 @@ a{
 	.service_inner > .elementor-widget-wrap {
 		max-width: 720px;
 	}
+}
+@media(max-width: 991px){
+	.search_cart {
+		flex-direction: initial;
+		justify-content: flex-end;
+		margin-right: 0px;
+	}
+}
+.search_cart {
+	align-items: end;
+	margin-left: 0;
+}
+.drdt_sticky_fixed .nav-link.search-btn i:before {
+    color: #1E1E1E !important;
+}
+.widget_car_recent_post{
+   margin-bottom: 50px;
+}
+.widget_car_recent_post li .media {
+   display: flex;
+}
+
+.widget_car_recent_post .post_meta a {
+   color: #8d8e98;
+   margin-top: 7px;
+   display: inline-block;
+}
+.widget_car_recent_post li .media .post_image {
+   display: inline-block;
+   flex: 120px 0 0;
+   margin-right: 15px;
+}
+
+.widget_car_recent_post li .media .media-body h5 {
+   text-transform: capitalize;
+   margin: 0;
+   font-size: 15px;
+}
+.widget_car_recent_post li .media .post_meta{
+   font-size: 13px;
+   margin-top: -1px;
+}
+.widget-area .widget {
+   margin-bottom: 50px;
+}
+i.icon-search {
+    color: #fff;
 }

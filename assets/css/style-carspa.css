@@ -317,6 +317,9 @@ ul.dl_tab_menu.droit-advance-navs {
 		box-shadow: none !important;
 	}
 
+    .dl_product_compaire .twentytwenty-handle .h-arrow{
+        color: red;
+    }
 	.dl_product_compaire .twentytwenty-handle .h-arrow img {
 		width: 9px;
 	}
@@ -576,6 +579,11 @@ ul.dl_tab_menu.droit-advance-navs {
 	margin-left: auto;
 	margin-right: 0;
 }
+@media (min-width: 3400px){
+	.service_inner > .elementor-widget-wrap {
+		max-width: 1028px;
+	}
+}
 @media (min-width: 1921px){
 	.service_inner > .elementor-widget-wrap {
 		margin-right: 80px;
@@ -636,7 +644,7 @@ ul.dl_tab_menu.droit-advance-navs {
    margin-bottom: 50px;
 }
 i.icon-search {
-    color: #fff;
+    color: #fff !important;
 }
 
 

@@ -13,7 +13,7 @@ if ( ! function_exists( 'carspa_posted_on' ) ) :
 	 */
 	function carspa_posted_on() {
 	?>
-	  <span class="post_date_loop"><?php echo esc_html( get_the_date('M d, Y') ); ?> </span> 
+	  <span class="post_date_loop"><?php echo esc_html( get_the_date(get_option('date_format')) ); ?> </span> 
 	<?php
 	}
 endif;

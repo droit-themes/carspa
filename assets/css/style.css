@@ -253,8 +253,9 @@
     display: flex;
     flex-wrap: inherit;
     align-items: center;
-    justify-content: space-between;
 }
+
+
 
 .navbar-brand {
     padding-top: 0.3125rem;
@@ -405,6 +406,7 @@
 
     .navbar-expand-lg .navbar-collapse {
         display: flex !important;
+        margin-right: 25px;
     }
 
     .navbar-expand-lg .navbar-toggler {
@@ -7040,7 +7042,7 @@ textarea.form-control-lg {
     box-shadow: 0px 6px 20px 0px rgba(1, 6, 33, 0.08), -3px 0px 0px 0px rgba(238, 144, 81, 0.004);
     top: 100%;
     left: auto;
-    right: -100px;
+    right: 0px;
     z-index: 20;
     transform: translateY(20px);
     opacity: 0;
@@ -7120,6 +7122,10 @@ textarea.form-control-lg {
     .navbar_fixed .navbar .menu > .nav-item {
         padding-top: 10px;
         padding-bottom: 10px;
+    }
+    .navbar-nav.search_cart{
+        flex: 1;
+        margin-right: 15px;
     }
 }
 

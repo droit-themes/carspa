@@ -8,7 +8,7 @@
  *
  * @package carspa
  */
-$footer_text = carspa_options('carspa_copyright_txt', 'Copyright &copy; 2021 <a href="#">DroitThemes</a> | All rights reserved');
+$footer_text = carspa_options('carspa_copyright_txt', 'Copyright &copy; 2022 <a href="#">DroitThemes</a> | All rights reserved');
 $footer_id = '';
 
 if ( isset( $post->ID) && function_exists('header_footer_template_id')) {

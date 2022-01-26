@@ -1003,13 +1003,6 @@ p.comment-form-cookies-consent{
 	display: none;
 }
 
-.sidebar_right .widget h2 {
-	font-weight: 600;
-    margin: 0px 0px 24px;
-    font-size: 24px !important;
-    color: #222E3E;
-}
-
 .sidebar_right .has-dates.has-excerpts.wp-block-latest-comments{
 	padding: 0;
 }

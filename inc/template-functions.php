@@ -188,19 +188,19 @@ if(!function_exists('carspa_wrapper_start')) {
 
 		$row_class = 'row';
 	
-		if($sidebar == 'left') {
+		if($sidebar == 'left' && is_active_sidebar('sidebar-1')) {
 			$row_class = 'row flex-row-reverse';
 		}
 
-		if($sidebar == 'full') {
+		if($sidebar == 'full' || !is_active_sidebar('sidebar-1') ) {
 			$row_class = 'row justify-content-center';
-			print_r($sidebar);
+			$col = 10;
 		}
 
 		?>
 		 <div class="container sec_padding">
-			<div class="<?php echo esc_attr($row_class,'carspa'); ?>">
-				<div class="col-lg-8">
+			<div class="<?php echo esc_attr($row_class); ?>">
+				<div class="col-lg-<?php echo esc_attr($col) ?>">
 		<?php
      
 	}

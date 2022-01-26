@@ -8124,6 +8124,8 @@ blockquote cite br {
 
 .blog_single_info .post_bottom .tagcloud {
     padding-top: 15px;
+    color: #222E3E;
+    font-weight: 500;
 }
 
 .blog_single_info .post_comments i {
@@ -8280,19 +8282,23 @@ blockquote cite br {
 
 .blog_single_info .page-links {
     padding-top: 20px;
-    margin-bottom: 2em;
 }
 
 .blog_single_info .page-links .post-page-numbers {
-    font-size: 22px;
+    font-size: 14px;
     color: #EE3131;
     text-decoration: none;
-    margin-right: 12px;
+    margin-right: 8px;
+    padding: 8px 15px;
+    border: 1px solid currentColor;
 }
 
+
+.blog_single_info .page-links .post-page-numbers:hover,
 .blog_single_info .page-links .post-page-numbers.current {
-    color: #EE3131;
-    border-bottom: 1px solid #EE3131;
+    color: #ffffff;
+    background-color: #EE3131;
+    border-color: #EE3131;
 }
 
 .blog_single_info .wp-block-table table {
@@ -8306,7 +8312,7 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
     text-align: left;
-    margin-bottom: 4em;
+    margin-bottom: 2em;
 }
 
 table thead {
@@ -8642,7 +8648,7 @@ li.comment.depth-1:not(:first-child) .content h4{
 }
 
 .comment_box .trackback, .comment_box .pingback {
-    margin-bottom: 16px;
+    margin-bottom: 20px;
 }
 
 .comment_box .trackback .comment-body, .comment_box .pingback .comment-body {
@@ -8664,7 +8670,7 @@ li.comment.depth-1:not(:first-child) .content h4{
 }
 
 .comment-form .form-group input {
-    border-radius: 3px;
+    border-radius: 4px;
     border: 1px solid #e5e5e5;
     height: 60px;
     line-height: 60px;
@@ -8795,9 +8801,9 @@ li.comment.depth-1:not(:first-child) .content h4{
 /*========== End contact_info_item css ===========*/
 .widget-title {
     font-weight: 600;
-    margin: 0px 0px 35px;
+    margin: 0 0 24px;
     font-size: 24px;
-    color: #222E3E;
+    color: #1E1E1E;
 }
 
 .widget {
@@ -8925,7 +8931,6 @@ li.comment.depth-1:not(:first-child) .content h4{
 }
 
 .calendar_wrap thead tr th, .wp-block-calendar thead tr th {
-    color: #EE3131;
     border-top: none;
     text-align: center;
     font-weight: 600;
@@ -9197,7 +9202,7 @@ li.comment.depth-1:not(:first-child) .content h4{
 
 .comment-reply-title, .comments-title {
     font-weight: 600;
-    margin-bottom: 45px;
+    margin-bottom: 30px;
     margin-top: 0;
     line-height: 1.2;
 	font-size: 24px;
@@ -9394,6 +9399,7 @@ h1, h2, h3, h4, h5, h6,
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
     font-family: "Rubik", sans-serif;
     line-height: 1.5;
+    color: #1E1E1E;
 }
 
 main {

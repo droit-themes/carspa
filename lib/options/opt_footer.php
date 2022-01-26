@@ -17,7 +17,7 @@ Redux::set_section('carspa', array(
             'title'     => esc_html__('Copyright Text', 'carspa'),
             'id'        => 'carspa_copyright_txt',
             'type'      => 'editor',
-            'default'   => 'Copyright &copy; 2021 <a href="#">DroitThemes</a> | All rights reserved',
+            'default'   => 'Copyright &copy; 2022 <a href="#">DroitThemes</a> | All rights reserved',
             'args'    => array(
                 'wpautop'       => true,
                 'media_buttons' => false,

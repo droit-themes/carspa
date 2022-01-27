@@ -44,7 +44,6 @@ function carspa_scripts() {
    //  Enqueue script   
 	wp_enqueue_script( 'mediaelement-and-player', CARSPA_JS. '/mediaelement-and-player.min.js', array('jquery'), CARSPA_VERSION, true );
 	wp_enqueue_script( 'parallaxie', CARSPA_JS. '/parallaxie.js', array('jquery'), CARSPA_VERSION, true );
-    wp_enqueue_script( 'carspa-navigation', CARSPA_JS . '/navigation.js', array(), CARSPA_VERSION, true );
 	wp_enqueue_script( 'carspa-main', CARSPA_JS . '/main.js', array('jquery'), CARSPA_VERSION, true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {

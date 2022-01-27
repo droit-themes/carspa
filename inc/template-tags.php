@@ -140,21 +140,9 @@ if ( ! function_exists( 'carspa_post_thumbnail' ) ) :
 
 		<?php else : ?>
 
-			<a class="post-thumbnail" href="<?php the_permalink(); ?>" aria-hidden="true" tabindex="-1">
-				<?php
-					the_post_thumbnail(
-						'post-thumbnail',
-						array(
-							'alt' => the_title_attribute(
-								array(
-									'echo' => false,
-								)
-							),
-							'class' => 'zoom_in_img'
-						)
-					);
-				?>
-			</a>
+			<div class="post-thumbnail">
+				<?php the_post_thumbnail( 'carspa-blog' ); ?>
+			</div><!-- .post-thumbnail -->
 
 			<?php
 		endif; // End is_singular().

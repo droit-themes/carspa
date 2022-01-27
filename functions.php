@@ -65,6 +65,7 @@ if ( ! function_exists( 'carspa_setup' ) ) :
 		add_theme_support( 'post-formats', array( 'aside', 'gallery', 'audio' ) );
 		
 		add_image_size( 'carspa-blog-page', 750, 350, true ); // Hard Crop Mode
+		add_image_size( 'carspa-blog', 750, 450, true ); // Hard Crop Mode
 
 		/*
 		 * Let WordPress manage the document title.

@@ -13,7 +13,7 @@ if ( ! function_exists( 'carspa_posted_on' ) ) :
 	 */
 	function carspa_posted_on() {
 	?>
-	  <span class="post_date_loop"><?php echo esc_html( get_the_date(get_option('date_format')) ); ?> </span> 
+	  <span class="post_date_loop"><i class="fas fa-calendar-alt"></i><?php echo esc_html( get_the_date('M d, Y') ); ?> </span> 
 	<?php
 	}
 endif;
@@ -27,7 +27,7 @@ if ( ! function_exists( 'carspa_posted_by' ) ) :
 		$byline = sprintf(
 			/* translators: %s: post author. */
 			esc_html_x( '%s', 'post author', 'carspa' ),
-			'<span class="author vcard"><a class="url fn n" href="' . esc_url( get_author_posts_url( $post->post_author) ) . '">' . esc_html(get_the_author_meta( 'display_name',$post->post_author) ) . '</a></span>'
+			'<span class="author vcard"><i class="fas fa-user"></i><a class="url fn n" href="' . esc_url( get_author_posts_url( $post->post_author) ) . '">' . esc_html(get_the_author_meta( 'display_name',$post->post_author) ) . '</a></span>'
 		);
 
 		echo '<span class="byline"> ' . $byline . '</span>'; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped

@@ -31,10 +31,8 @@ function carspa_scripts() {
     
 	wp_enqueue_style( 'carspa-style', get_stylesheet_uri(), array(), CARSPA_VERSION );
 	wp_style_add_data( 'carspa-style', 'rtl', 'replace' );
-
-	wp_enqueue_style( 'Reggae', 'https://fonts.googleapis.com/css2?family=Reggae+One&display=swap', array( 'carspa-style' ), CARSPA_VERSION );
 	wp_enqueue_style( 'mediaelementplayer', CARSPA_CSS.'/mediaelementplayer.css', array( 'carspa-style' ), CARSPA_VERSION );
-	wp_enqueue_style( 'fontawesome', CARSPA_CSS.'/all.min.css', array( 'carspa-style' ), CARSPA_VERSION );
+	wp_enqueue_style( 'carspa-fontawesome', CARSPA_CSS.'/all.min.css', array( 'carspa-style' ), CARSPA_VERSION );
     wp_enqueue_style( 'themify-icon', CARSPA_CSS.'/themify-icons.css', array( 'carspa-style' ), CARSPA_VERSION );
 	wp_enqueue_style( 'carspa-icon-moon', CARSPA_CSS.'/icon-moon.css', array( 'carspa-style' ), CARSPA_VERSION );
 

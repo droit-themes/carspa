@@ -7562,12 +7562,12 @@ textarea.form-control-lg {
     font-size: 14px;
     font-weight: 400;
     color: #899097;
+    text-transform: uppercase;
 }
 
 .media_blog_content .post_bottom .learn_btn_two {
     text-decoration: none;
     color: #899097;
-    text-transform: uppercase;
 }
 
 .media_blog_content .post_bottom .learn_btn_two:after {
@@ -7599,7 +7599,7 @@ textarea.form-control-lg {
     height: 12px;
     background: #899097;
     display: inline-block;
-    margin: 0px 3px;
+    margin: 0px 6px 0px 9px;
 }
 
 .post-meta span span::after {
@@ -9521,6 +9521,15 @@ a:visited {
 
 .site-footer a {
     color: #EE3131;
+}
+
+.media_blog_content .post_date_loop,.media_blog_content .byline .author {
+    display: inline-flex;
+    align-items: center;
+}
+.media_blog_content span i{
+    font-size: 12px;
+    margin-right: 8px;
 }
 
 @media (max-width: 767px) {

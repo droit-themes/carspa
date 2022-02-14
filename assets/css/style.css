@@ -9531,6 +9531,21 @@ a:visited {
     font-size: 12px;
     margin-right: 8px;
 }
+.widget.widget_recent_entries .d-flex a {
+    margin-right: 15px;
+}
+.post_text a h3 {
+    font-size: 18px;
+    line-height: 1.4;
+    font-weight: 600;
+    color: #222E3E;
+}
+.post_text a h3:hover {
+    color: #FF2A39;
+}
+.post_text {
+    flex: 1;
+}
 
 @media (max-width: 767px) {
     .site-footer {

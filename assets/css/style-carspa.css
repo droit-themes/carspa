@@ -161,6 +161,23 @@ ul.dl_tab_menu.droit-advance-navs {
 	line-height:30px;
 }
 
+/* new css  */
+.breadcrumb_content .page_title.banne-blog {
+    margin-bottom: 10px;
+}
+.widget.widget_recent_entries ul li {
+    border: none;
+}
+.breadcrumb_content .post-meta i {
+    margin-right: 10px;
+}
+.carspa_latest_blog .droit-post_author {
+    padding: 0px 31px 0px 0px !important;
+}
+.carspa_contact_text-color a {
+    color: #626472;
+}
+
 
 @media (min-width: 992px){
 	.service-img img{

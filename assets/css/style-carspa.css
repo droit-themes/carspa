@@ -716,3 +716,7 @@ blockquote:before{
 	border-top: 1px solid #DFE2E7 !important;
 	margin-top: 10px !important;
 }
+
+a.comment_link{
+	color: #899097;
+}

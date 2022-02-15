@@ -102,17 +102,18 @@ if ( ! function_exists( 'carspa_entry_meta_footer' ) ) :
 	 *
 	 * @since carspa 1.0
 	 *
-	 * @return void
+	 * @return void   
 	 */
 	function carspa_entry_meta_footer() {
-
 		$readmore_butotn_text = carspa_options('carspa_read_more_text_button', 'Read More');
-
+		$post = get_the_ID();
 	?>
 	<div class="post_bottom">
 		<a href="<?php echo esc_url( get_the_permalink()); ?>" class="learn_btn_two"><?php echo esc_html($readmore_butotn_text); ?></a>
 		<span class="post_comments">
-		  <?php comments_number( 'No comments', '1 comment', '% comments' ); ?>
+		<a class="comment_link" href="<?php echo get_comments_link( $post); ?>">
+		  	<?php comments_number( 'No comments', '1 comment', '% comments' ); ?>
+		</a>
 		</span>
     </div>
    <?php 

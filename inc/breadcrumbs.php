@@ -40,8 +40,8 @@ function carspa_breadcrumbs( $default_sep = '>') {
 
 	if ( is_home() || is_front_page() ) {
 
-		if ( $show_on_home ) echo carspa_return($wrap_before . $home_link . $wrap_after);
-
+		if ( $show_on_home ) echo carspa_return($wrap_before . $home_link . $wrap_after);   
+		
 	} else {
 
 		$position = 0;

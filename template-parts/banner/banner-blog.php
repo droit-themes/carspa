@@ -34,7 +34,7 @@
                     <h1 class="page_title banne-blog"><?php echo esc_html( $title ); ?></h1>
                 <?php endif;
                 if($show_breadcrumbs  == 'show') : 
-                    carspa_breadcrumbs(); 
+                    carspa_breadcrumbs();
                 endif; ?> 
             </div>
         </div>

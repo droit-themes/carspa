@@ -273,7 +273,8 @@ ul.dl_tab_menu.droit-advance-navs {
 		margin-bottom: 0px !important;
 	}
 	.drdt-nav-menu__layout-horizontal .menu-item.drdt-has-submenu .drdt-has-submenu-container .sub-arrow{
-		font-size: 11px !important;
+		font-size: 13px !important;
+		font-weight: 600;
 	}
 }
 @media (max-width:768px) {
@@ -719,4 +720,14 @@ blockquote:before{
 
 a.comment_link{
 	color: #899097;
+	text-decoration: none;
+}
+
+.post-thumbnail{
+	line-height: 0;
+}
+
+img.site-logo{
+	width: 160px;
+	height: 46px;
 }

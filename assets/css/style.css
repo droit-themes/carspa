@@ -6698,6 +6698,7 @@ textarea.form-control-lg {
     font-size: 14px;
     color: #626472;
     transition: color 0.2s linear;
+    text-transform: uppercase;
 }
 
 .menu > .nav-item.submenu .dropdown-menu .nav-item .nav-link:after {
@@ -7326,8 +7327,9 @@ textarea.form-control-lg {
         position: absolute;
         right: 0;
         top: 10px;
-        font-size: 22px;
+        font-size: 16px;
         transition: all 0.2s;
+        font-weight: 600;
     }
 
     .menu > .nav-item.mega_menu .mega_menu_inner {
@@ -8800,6 +8802,12 @@ li.comment.depth-1:not(:first-child) .content h4{
 
 /*========== End contact_info_item css ===========*/
 .widget-title {
+    font-weight: 600;
+    margin: 0 0 24px;
+    font-size: 24px;
+    color: #1E1E1E;
+}
+.widgettitle {
     font-weight: 600;
     margin: 0 0 24px;
     font-size: 24px;

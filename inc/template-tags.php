@@ -7,13 +7,14 @@
  * @package carspa
  */
 
+
 if ( ! function_exists( 'carspa_posted_on' ) ) :
 	/**
 	 * Prints HTML with meta information for the current post-date/time.
 	 */
 	function carspa_posted_on() {
 	?>
-	  <span class="post_date_loop"><i class="fas fa-calendar-alt"></i><?php echo esc_html( get_the_date('M d, Y') ); ?> </span> 
+	  <span class="post_date_loop"><i class="fas fa-calendar-alt"></i><?php echo esc_html( get_the_date(get_option('date_format')) ); ?> </span> 
 	<?php
 	}
 endif;
@@ -112,7 +113,7 @@ if ( ! function_exists( 'carspa_entry_meta_footer' ) ) :
 		<a href="<?php echo esc_url( get_the_permalink()); ?>" class="learn_btn_two"><?php echo esc_html($readmore_butotn_text); ?></a>
 		<span class="post_comments">
 		<a class="comment_link" href="<?php echo get_comments_link( $post); ?>">
-		  	<?php comments_number( 'No comments', '1 comment', '% comments' ); ?>
+		  	<?php comments_number( 'No comment', '1 comment', '% comments' ); ?>
 		</a>
 		</span>
     </div>
@@ -128,6 +129,8 @@ if ( ! function_exists( 'carspa_post_thumbnail' ) ) :
 	 * element when on single views.
 	 */
 	function carspa_post_thumbnail() {
+		
+$thum_img = is_active_sidebar ('sidebar-1') ? 'carspa-blog' : 'full';
 		if ( post_password_required() || is_attachment() || ! has_post_thumbnail() ) {
 			return;
 		}
@@ -142,7 +145,7 @@ if ( ! function_exists( 'carspa_post_thumbnail' ) ) :
 		<?php else : ?>
 
 			<div class="post-thumbnail">
-				<?php the_post_thumbnail( 'carspa-blog' ); ?>
+				<?php the_post_thumbnail( $thum_img ); ?>
 			</div><!-- .post-thumbnail -->
 
 			<?php
@@ -192,11 +195,11 @@ function carspa_is_comment_by_post_author( $comment = null ) {
 
 		function carspa_logo () {
            
-			$logo_option_url = CARSPA_IMAGES.'/default_logo/logo.png';
-			$sticky_logo_option = CARSPA_IMAGES.'/default_logo/logo_sticky.png';
-			$sticky_ratina_sticky_url = '';
+			$logo_option_url = CARSPA_IMAGES.'/default_logo/logo.svg';
+			$sticky_logo_option = CARSPA_IMAGES.'/default_logo/logo.svg';
+			$sticky_ratina_sticky_url = CARSPA_IMAGES.'/default_logo/logo.svg';
 			$sticky_ratina_attr = '';
-			$ratena_url = '';
+			$ratena_url = CARSPA_IMAGES.'/default_logo/logo.svg';
 			$ratena_attr = '';
 			$logo_alt = 'carspa default logo';
 			$logo_alt_sticky = 'carspa default sticky logo';
@@ -247,7 +250,7 @@ function carspa_is_comment_by_post_author( $comment = null ) {
 			// sticky logo ratina 
 
 			if($sticky_ratina_sticky_url  != ''){
-				$sticky_ratina_attr = 'srcset="'.$default_sticky_logo.", ".$sticky_ratina_sticky_url." 2x".'"';
+				$sticky_ratina_attr = 'srcset="'.$sticky_logo_option.", ".$sticky_ratina_sticky_url." 2x".'"';
 			}
 
 			if(function_exists('the_custom_logo') && has_custom_logo()) {

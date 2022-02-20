@@ -408,14 +408,15 @@ ul.dl_tab_menu.droit-advance-navs {
 		top: -1100px;
 		z-index: 99;
 	}
-
-
 	.service_inner > .elementor-widget-wrap {
 		max-width: 500px;
 		margin-left: auto;
 		margin-right: 0;
 	}
-
+    
+	.admin-bar .navbar_fixed .navbar{
+		margin-top: 0;
+	}
 
 }
 

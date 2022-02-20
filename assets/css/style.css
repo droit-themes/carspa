@@ -7308,7 +7308,7 @@ textarea.form-control-lg {
 
     .menu > .nav-item.submenu .dropdown-menu {
         padding-left: 15px;
-        padding-right: 15px;
+        padding-right: 0px;
         box-shadow: none;
         padding-bottom: 0px;
     }
@@ -7325,9 +7325,9 @@ textarea.form-control-lg {
     .menu > .nav-item .mobile_dropdown_icon {
         display: block;
         position: absolute;
-        right: 0;
+        right: 10px;
         top: 10px;
-        font-size: 16px;
+        font-size: 18px;
         transition: all 0.2s;
         font-weight: 600;
     }

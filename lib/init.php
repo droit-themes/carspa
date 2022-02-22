@@ -16,7 +16,7 @@ require CARSPA_THEMEROOT_DIR . '/lib/options/opt-config.php';
 add_filter('acf/settings/save_json', function ( $path ) {
 
 	// update path
-	$path = get_stylesheet_directory() . '/lib/acf-json';
+	$path = get_template_directory() . '/lib/acf-json';
 
 	// return
 	return $path;
@@ -28,7 +28,7 @@ add_filter('acf/settings/save_json', function ( $path ) {
  */
 add_filter('acf/settings/load_json', function ( $paths ) {
 	// append path
-	$paths[] = get_stylesheet_directory() . '/lib/acf-json';
+	$paths[] = get_template_directory() . '/lib/acf-json';
 	// return
 	return $paths;
 });

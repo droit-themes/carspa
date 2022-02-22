@@ -1,6 +1,5 @@
 <?php 
 
-
 require CARSPA_THEMEROOT_DIR . '/inc/custom-header.php';
 
 /**

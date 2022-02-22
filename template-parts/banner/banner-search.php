@@ -13,10 +13,10 @@ if(!class_exists('Redux')){
 ?>
 
 <?php if($banner_background_url != '') :  ?>
-<div class="blog_breadcrumbs_area_two parallaxie" data-bg-img="<?php echo esc_url($banner_background_url); ?>">
+<div class="blog-breadcrumbs-area-two parallaxie" data-bg-img="<?php echo esc_url($banner_background_url); ?>">
 <div class="overlay_bg"></div>
 <?php else: ?>
-<div class="blog_breadcrumbs_area_two banner-with-color">
+<div class="blog-breadcrumbs-area-two banner-with-color">
 <?php endif; ?> 
         <div class="container">
             <div class="breadcrumb_content text-white text-center">
@@ -27,7 +27,7 @@ if(!class_exists('Redux')){
                     printf( esc_html__( 'Search Results for: %s', 'carspa' ), '<span>' . get_search_query() . '</span>' );
                     ?>
                 </h1>
-               <?php   carspa_breadcrumbs();  ?>
+               <?php carspa_breadcrumbs(); ?>
             </div>
         </div>
 </div>

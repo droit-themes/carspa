@@ -182,8 +182,3 @@ require_once CARSPA_THEMEROOT_DIR . '/inc/init.php';
 
 require_once CARSPA_THEMEROOT_DIR . '/lib/init.php';
 
-/**
- * Block Patterns.
- */
-
-

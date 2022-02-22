@@ -9315,21 +9315,21 @@ li.comment.depth-1:not(:first-child) .content h4{
     margin-bottom: 12px;
 }
 
-.blog_breadcrumbs_area_two,
-.blog_breadcrumbs_area_two.page-banner,
-.blog_breadcrumbs_area_two.blog-single-page,
-.blog_breadcrumbs_area_two.archive-banner,
-.blog_breadcrumbs_area_two.banner-404 {
+.blog-breadcrumbs-area-two,
+.blog-breadcrumbs-area-two.page-banner,
+.blog-breadcrumbs-area-two.blog-single-page,
+.blog-breadcrumbs-area-two.archive-banner,
+.blog-breadcrumbs-area-two.banner-404 {
     padding: 135px 0px;
     position: relative;
     z-index: 1;
 }
 
-.blog_breadcrumbs_area_two .overlay_bg,
-  .blog_breadcrumbs_area_two.page-banner .overlay_bg,
-  .blog_breadcrumbs_area_two.blog-single-page .overlay_bg,
-  .blog_breadcrumbs_area_two.archive-banner .overlay_bg,
-  .blog_breadcrumbs_area_two.banner-404 .overlay_bg {
+.blog-breadcrumbs-area-two .overlay_bg,
+  .blog-breadcrumbs-area-two.page-banner .overlay_bg,
+  .blog-breadcrumbs-area-two.blog-single-page .overlay_bg,
+  .blog-breadcrumbs-area-two.archive-banner .overlay_bg,
+  .blog-breadcrumbs-area-two.banner-404 .overlay_bg {
     position: absolute;
     top: 0;
     left: 0;

@@ -60,7 +60,7 @@ Redux::set_section('carspa', array(
             'type'      => 'color_rgba',
             'title'     => 'Banner Overly Color',
             'mode'      => 'background',
-            'output'    => array( '.blog_breadcrumbs_area_two.page-banner .overlay_bg' ),
+            'output'    => array( '.blog-breadcrumbs-area-two.page-banner .overlay_bg' ),
             'default'   => array(
                 'color'     => '#000',
                 'alpha'     => .5
@@ -130,7 +130,7 @@ Redux::set_section('carspa', array(
             'type'      => 'color_rgba',
             'title'     => 'Banner Overly Color',
             'mode'      => 'background',
-            'output'    => array( '.blog_breadcrumbs_area_two .overlay_bg' ),
+            'output'    => array( '.blog-breadcrumbs-area-two .overlay_bg' ),
             'default'   => array(
                 'color'     => '#000',
                 'alpha'     => .5
@@ -195,7 +195,7 @@ Redux::set_section('carspa', array(
             'type'      => 'color_rgba',
             'title'     => 'Banner Overly Color',
             'mode'      => 'background',
-            'output'    => array( '.blog_breadcrumbs_area_two.blog-single-page .overlay_bg' ),
+            'output'    => array( '.blog-breadcrumbs-area-two.blog-single-page .overlay_bg' ),
             'default'   => array(
                 'color'     => '#000',
                 'alpha'     => .5
@@ -268,7 +268,7 @@ Redux::set_section('carspa', array(
             'type'      => 'color_rgba',
             'title'     => 'Banner Overly Color',
             'mode'      => 'background',
-            'output'    => array( '.blog_breadcrumbs_area_two.search-banner .overlay_bg' ),
+            'output'    => array( '.blog-breadcrumbs-area-two.search-banner .overlay_bg' ),
             'default'   => array(
                 'color'     => '#000',
                 'alpha'     => .5

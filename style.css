@@ -4,7 +4,7 @@ Theme URI: https://carspa.droitlab.com/
 Author: DroitThemes
 Author URI: https://themeforest.net/user/droitthemes
 Description: Carspa is a multi-purpose WordPress theme for dealership of motor and non-motor vehicles. You can create your stunning websites for luxury cars, budget cars, buses, trucks, bikes, motor bikes, yachts, ships, agricultural vehicles and more.
-Version: 0.0.7
+Version: 1.0.2
 Tested up to: 5.4
 Requires PHP: 5.6
 License: GNU General Public License v2 or later
@@ -1010,6 +1010,12 @@ p.comment-form-cookies-consent{
 .sidebar_right a.wp-block-latest-comments__comment-link , .sidebar_right a.wp-block-latest-comments__comment-author {
 	color: #222E3E;
 	text-decoration: none;
+}
+
+.blog_breadcrumbs_area_two, .blog_breadcrumbs_area_two.page-banner, .blog_breadcrumbs_area_two.blog-single-page, .blog_breadcrumbs_area_two.archive-banner, .blog_breadcrumbs_area_two.banner-404 {
+    padding: 135px 0px;
+    position: relative;
+    z-index: 1;
 }
 
 

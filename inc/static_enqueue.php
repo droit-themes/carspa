@@ -38,6 +38,7 @@ function carspa_scripts() {
 
 	wp_enqueue_style( 'carspastylemain', get_theme_file_uri('/assets/css/style.css'), array(), CARSPA_VERSION );
 	wp_enqueue_style( 'stylecarspa', get_theme_file_uri('/assets/css/style-carspa.css'), array(), CARSPA_VERSION );
+    wp_enqueue_style( 'carspa_woocommerce', get_theme_file_uri('/assets/css/woocommerce.css'), array(), CARSPA_VERSION );
 
    //  Enqueue script   
 	wp_enqueue_script( 'mediaelement-and-player', CARSPA_JS. '/mediaelement-and-player.min.js', array('jquery'), CARSPA_VERSION, true );

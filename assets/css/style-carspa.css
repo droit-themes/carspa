@@ -732,3 +732,15 @@ img.site-logo{
 	width: 160px;
 	height: 46px;
 }
+
+.footer_list .elementor-icon-list-item a:hover span{
+	color: #fff !important;
+}
+
+.ad_pricing .droit-tab-title{
+	text-align: center;
+	margin-top: 10px;
+}
+.custom_tab .tab_container > div.dl_active{
+	padding: 0px !important;
+}

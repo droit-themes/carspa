@@ -74,6 +74,12 @@ function carspa_resister_required_plugin() {
 			'slug'      => 'one-click-demo-import',
 			'required'  => false,
 		),
+
+		array(
+			'name'      => esc_html__( 'WooCommerce', 'carspa' ),
+			'slug'      => 'woocommerce',
+			'required'  => false,
+		),
 	);
 
 	/*

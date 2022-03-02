@@ -1,0 +1,7 @@
+----- 1.0.1 (03 March 2022) -----
+Added: 02 New Home Page Added
+Added: WooCommerce Integration
+
+
+----- 1.0.0 (02 March 2022) -----
+Initial release

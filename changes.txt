@@ -1,3 +1,8 @@
+----- 1.0.2 (13 June  2022) -----
+Updated : Compatible with latest WordPress version (6.0.0x)
+Added : Extra 70+ widgets using Droit Addons (free version)
+
+
 ----- 1.0.1 (03 March 2022) -----
 Added: 02 New Home Page Added
 Added: WooCommerce Integration

@@ -49,6 +49,12 @@ function carspa_resister_required_plugin() {
 		),
 
 		array(
+			'name'               => esc_html__( 'Droit Dark Mode', 'carspa' ),
+			'slug'               => 'droit-dark-mode',
+			'required'           => true,
+		),
+
+		array(
 			'name'               => esc_html__( 'Carspa Core', 'carspa' ), // The plugin name.
 			'slug'               => 'carspa-core', // The plugin slug (typically the folder name).
 			'source'             => 'http://carspa.droitlab.com/downloadfile/carspa-core.zip', // The plugin source.

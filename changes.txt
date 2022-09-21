@@ -1,3 +1,7 @@
+----- 1.0.3 (21 Sep  2022) -----
+Updated : Compatible with latest Elementor version
+Added : Droit Dark Mode Plugin
+
 ----- 1.0.2 (13 June  2022) -----
 Updated : Compatible with latest WordPress version (6.0.0x)
 Added : Extra 70+ widgets using Droit Addons (free version)

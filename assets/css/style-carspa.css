@@ -49,12 +49,12 @@ ul.dl_tab_menu.droit-advance-navs {
 	padding-top:10px !important;
 	border-left: 1px solid transparent;
 }
-.Service_tabs ul.dl_tab_menu.droit-advance-navs li:hover,.Service_tabs ul.dl_tab_menu.droit-advance-navs li.dl_active {
+.Service_tabs ul.dl_tab_menu.droit-advance-navs li:hover,.Service_tabs ul.dl_tab_menu.droit-advance-navs li.dl_active,.Service_tabs ul.dl_tab_menu.droit-advance-navs li.active-default{
 	background: rgba(247, 93, 52, 0.08) !important;
 	border-left: 1px solid #EE3131;
 	color: #EE3131 !important;
 }
-.Service_tabs ul.dl_tab_menu.droit-advance-navs li:hover svg path,.Service_tabs ul.dl_tab_menu.droit-advance-navs li.dl_active svg path{
+.Service_tabs ul.dl_tab_menu.droit-advance-navs li:hover svg path,.Service_tabs ul.dl_tab_menu.droit-advance-navs li.dl_active svg path,.Service_tabs ul.dl_tab_menu.droit-advance-navs li.active-default svg path{
 	fill: #EE3131 !important;
 }
 .Service_tabs ul.dl_tab_menu.droit-advance-navs li .droit-button_icon{
@@ -132,7 +132,7 @@ ul.dl_tab_menu.droit-advance-navs {
 	top: 0;
 	left: 50%;
 	transform: translatex(-50%);
-	padding: 4px 20px 3px 20px;
+	padding: 4px 15px 3px 15px;
 	line-height:2;
 }
 .carspa_service_list .dl_blog_grid_masonory_post.style_8 .dl_post_box_content{
@@ -159,23 +159,6 @@ ul.dl_tab_menu.droit-advance-navs {
 .carspa_testimonial .dl_single_testimonial_slider.style_03 .dl_content{
 	font-size: 18px;
 	line-height:30px;
-}
-
-/* new css  */
-.breadcrumb_content .page_title.banne-blog {
-    margin-bottom: 10px;
-}
-.widget.widget_recent_entries ul li {
-    border: none;
-}
-.breadcrumb_content .post-meta i {
-    margin-right: 10px;
-}
-.carspa_latest_blog .droit-post_author {
-    padding: 0px 31px 0px 0px !important;
-}
-.carspa_contact_text-color a {
-    color: #626472;
 }
 
 
@@ -274,7 +257,7 @@ ul.dl_tab_menu.droit-advance-navs {
 	}
 	.drdt-nav-menu__layout-horizontal .menu-item.drdt-has-submenu .drdt-has-submenu-container .sub-arrow{
 		font-size: 13px !important;
-		font-weight: 600;
+		font-weight:600;
 	}
 }
 @media (max-width:768px) {
@@ -311,7 +294,7 @@ ul.dl_tab_menu.droit-advance-navs {
 		font-size: 26px;
 	}
 
-	.blog-breadcrumbs-area-two .banne-blog {
+	.blog_breadcrumbs_area_two .banne-blog {
 		font-size: 45px !important;
 	}
 
@@ -343,7 +326,7 @@ ul.dl_tab_menu.droit-advance-navs {
 	}
 
 	/*----------------- AR  Newv ------------------------ */
-	.blog-breadcrumbs-area-two .banne-blog {
+	.blog_breadcrumbs_area_two .banne-blog {
 		font-size: 48px;
 		color: #FFFFFF;
 	}
@@ -401,22 +384,12 @@ ul.dl_tab_menu.droit-advance-navs {
 		border-radius: 5px;
 		margin-right: 25px;
 	}
-
-	.book_now_position .elementor-element-populated {
-		position: absolute;
-		left: 0;
-		top: -1100px;
-		z-index: 99;
-	}
 	.service_inner > .elementor-widget-wrap {
 		max-width: 500px;
 		margin-left: auto;
 		margin-right: 0;
 	}
-    
-	.admin-bar .navbar_fixed .navbar{
-		margin-top: 0;
-	}
+
 
 }
 
@@ -442,17 +415,7 @@ ul.dl_tab_menu.droit-advance-navs {
 	border-radius: 5px;
 	margin-right: 25px;
 }
-
-.book_now_position .elementor-element-populated{
-	position: absolute;
-	left: 0;
-	top: -1100px;
-	z-index: 99;
-}
 @media(max-width:575px){
-	.book_now_position .elementor-element-populated{
-		position: unset;
-	}
 	.contact_form_carspa .dl_contact_form_wrapper.dl_cf7_form_02 label {
 		width: 100% !important;
 	}
@@ -498,7 +461,7 @@ ul.dl_tab_menu.droit-advance-navs {
     top: 1px;
     width: 22px;
     height: 21px;
-    background: url(https://preview.droitthemes.net/wp/carspa/wp-content/uploads/2022/01/Vector-2.png) no-repeat;
+    background: url(https://carspa.droitlab.com/wp-content/uploads/2022/01/Vector-2-1.png) no-repeat;
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -510,15 +473,12 @@ ul.dl_tab_menu.droit-advance-navs {
 .pricing_contact_form .fullname {
 	display: flex;
 	justify-content: space-between;
-	opacity: .5;
 }
 .pricing_contact_form .service_pricing {
 	display: flex;
 	justify-content: space-between;
-	opacity: .5;
 }
 .pricing_contact_form .note_pricing{
-	opacity: .5;
 }
 .pricing_contact_form .wpcf7-form-control-wrap.your-name {
 	margin-right: 10px;
@@ -535,7 +495,7 @@ ul.dl_tab_menu.droit-advance-navs {
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 22px;
-	color: #333;
+	color: #000;
 }
 .pricing_contact_form .wpcf7-form-control-wrap.menu-444 {
 	width: 50%;
@@ -553,6 +513,26 @@ ul.dl_tab_menu.droit-advance-navs {
 }
 .pricing_contact_form .dl_contact_form_wrapper.dl_cf7_form_02 .wpcf7-form-control:focus {
 	border: none;
+	border-bottom: 1px solid #bdbaba;
+}
+.pricing_contact_form .dl_contact_form_wrapper.dl_cf7_form_02 .wpcf7-form-control::placeholder{
+	color: #6a6a6a;
+}
+.pricing_contact_form .dl_contact_form_wrapper.dl_cf7_form_02 .wpcf7-form-control::-webkit-input-placeholder,.elementor-94 .elementor-element.elementor-element-7149581 .droit-contact-form-7 .wpcf7-form-control.wpcf7-select,.elementor-94 .elementor-element.elementor-element-7149581 .droit-contact-form-7 .wpcf7-form-control.wpcf7-date{ /* Chrome/Opera/Safari */
+  color: #6a6a6a;
+	opacity: 0.5;
+}
+.pricing_contact_form .dl_contact_form_wrapper.dl_cf7_form_02 .wpcf7-form-control::-moz-placeholder { /* Firefox 19+ */
+  color: #6a6a6a;
+	opacity: 0.5;
+}
+.pricing_contact_form .dl_contact_form_wrapper.dl_cf7_form_02 .wpcf7-form-control:-ms-input-placeholder { /* IE 10+ */
+  color: #6a6a6a;
+	opacity: 0.5;
+}
+.pricing_contact_form .dl_contact_form_wrapper.dl_cf7_form_02 .wpcf7-form-control:-moz-placeholder { /* Firefox 18- */
+  color: #6a6a6a;
+	opacity: 0.5;
 }
 /*end code css subscribe and pricing form*/
 /*start code css subscribe and contact form*/
@@ -598,14 +578,14 @@ ul.dl_tab_menu.droit-advance-navs {
 	margin-left: auto;
 	margin-right: 0;
 }
-@media (min-width: 3400px){
+@media (min-width: 2561px){
 	.service_inner > .elementor-widget-wrap {
-		max-width: 1028px;
+		max-width: 930px;
 	}
 }
 @media (min-width: 1921px){
 	.service_inner > .elementor-widget-wrap {
-		margin-right: 80px;
+		margin-right: 90px;
 	}
 }
 @media (max-width: 1440px){
@@ -709,6 +689,13 @@ i.icon-search {
 blockquote:before{
     margin-right: 8px;
 }
+
+
+.comment_box .comments_item .content h4{
+    font-size: 20px;
+    color: #222E3E;
+}
+
 .comment_box .comments_item .content h4{
     font-size: 20px;
     color: #222E3E;
@@ -717,11 +704,6 @@ blockquote:before{
 .widget  ul.children{
 	border-top: 1px solid #DFE2E7 !important;
 	margin-top: 10px !important;
-}
-
-a.comment_link{
-	color: #899097;
-	text-decoration: none;
 }
 
 .post-thumbnail{
@@ -736,11 +718,219 @@ img.site-logo{
 .footer_list .elementor-icon-list-item a:hover span{
 	color: #fff !important;
 }
-
+a.comment_link{
+	color: #899097;
+}
 .ad_pricing .droit-tab-title{
 	text-align: center;
 	margin-top: 10px;
 }
 .custom_tab .tab_container > div.dl_active{
 	padding: 0px !important;
+}
+/* new css Rony */
+.car_banner {
+    overflow: hidden;
+}
+.car_banner .elementor-heading-title{
+    position: relative;
+    z-index: 1;
+}
+.text_shap{
+    position: relative;
+    color: #fff !important;
+    display: inline-block;
+}
+.text_shap:before{
+    content: "";
+    background: url('https://carspa.droitlab.com/wp-content/uploads/2023/01/mask.png') no-repeat scroll center 0/cover;
+    position: absolute;
+    left: -15px;
+    top: -19px;
+    width: 346px;
+    height: 137px;
+    z-index: -1;
+}
+.funfact_item_four .elementor-counter .elementor-counter-title{
+    text-align: left;
+    padding-top: 28px;
+}
+.funfact_item_four .elementor-counter .elementor-counter-title span{
+    font-weight: 500;
+}
+.funfact_item_four .elementor-counter .elementor-counter-number-prefix{
+    display: none;
+}
+.custom_info.elementor-widget .elementor-icon-list-item{
+	align-items: flex-start;  
+}
+.custom_info.elementor-widget .elementor-icon-list-item .elementor-icon-list-icon{
+    margin-top: 5px;
+}
+@media (max-width: 991px){
+    .text_shap:before{
+        width: 260px;
+        height: 100px; 
+    }
+}
+
+/*===== boking_form css ====*/
+.boking_form .bookly-form .bookly-progress-tracker > div{
+    padding: 0px;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+    font-family: "Rubik", sans-serif;
+}
+.boking_form .bookly-form .bookly-box{
+    color: #fff;
+    font-weight: 400;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+} 
+.boking_form .bookly-form .bookly-progress-tracker > div.active{
+    color: #E43337 !important;
+}
+.boking_form .bookly-form .bookly-progress-tracker > div.active .step{
+    background: #E43337 !important;
+}
+.boking_form .bookly-box.bookly-bold{
+    text-align: center;
+    color: #fff;
+    font-size: 26px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500 !important;
+}
+.boking_form .bookly-form .bookly-form-group label,.boking_form .bookly-form .bookly-form-group span.bookly-bold,.boking_form .bookly-form .bookly-service-step .bookly-week-days > div,.boking_form .bookly-form .bookly-service-step .bookly-week-days > div .bookly-bold{
+    font-weight: 400 !important;
+    font-family: "Rubik", sans-serif;
+    font-size: 18px;
+    color: #fff !important;
+}
+.boking_form .bookly-form .bookly-service-step .bookly-form-group select,.boking_form .bookly-form .bookly-service-step .bookly-form-group .bookly-date-from,.bookly-form input[type="text"], .bookly-form input[type="number"], .bookly-form input[type="password"], .bookly-form textarea{
+    height: 52px !important;
+    background: #2E2E2E !important;
+    border: 1px solid #454545 !important;
+    border-radius: 6px !important;
+    color: #C0C0C0 !important;
+    font-size: 16px !important;
+    font-family: "Rubik", sans-serif;
+    padding: 5px 20px !important;
+    font-weight: 400;
+}
+.boking_form .bookly-form .bookly-service-step .bookly-form-group .bookly-date-from,.bookly-form input[type="text"]::placeholder, .bookly-form input[type="number"]::placeholder, .bookly-form input[type="password"]::placeholder, .bookly-form textarea::placeholder{
+    color: #C0C0C0 !important;
+}
+.bookly-form input[type="text"], .bookly-form input[type="number"], .bookly-form input[type="password"], .bookly-form textarea{
+    color: #fff !important;
+}
+.bookly-form textarea{
+    height: 180px !important;
+    padding-top: 20px;
+}
+.boking_form .bookly-form .bookly-service-step .bookly-form-group .bookly-date-from{
+    width: 100% !important;
+}
+.boking_form .bookly-form .bookly-service-step .bookly-box{
+    width: 100%;
+}
+.boking_form .bookly-form .bookly-service-step .bookly-box > .bookly-left.bookly-mobile-float-none {
+    width: 34%;
+}
+.boking_form .bookly-form .bookly-service-step .bookly-box > .bookly-left.bookly-mobile-float-none .bookly-available-date{
+    width: 96%;
+}
+.boking_form .bookly-form .bookly-service-step .bookly-box .bookly-left.bookly-mobile-float-none.bookly-time-range{
+    width: 67%;
+    display: flex;
+    margin: 0px -7px;
+}
+.boking_form .bookly-form .bookly-service-step .bookly-box .bookly-left.bookly-mobile-float-none.bookly-time-range .bookly-form-group.bookly-left{
+	flex: 1;
+    padding: 0px 7px;
+}
+.boking_form .bookly-form .bookly-service-step .bookly-box .bookly-left.bookly-mobile-float-none.bookly-time-range .bookly-form-group.bookly-left > div{
+    margin-right: 0px;
+}
+.boking_form .bookly-form .bookly-service-step .bookly-box .bookly-left.bookly-mobile-float-none.bookly-time-range .bookly-form-group.bookly-left select{
+    width: 100% !important;
+}
+.boking_form .bookly-form .bookly-service-step .bookly-box.bookly-nav-steps,.bookly-nav-steps{
+    border-color: rgba(255, 255, 255, 0.08) !important;
+}
+.boking_form .bookly-form .bookly-service-step .bookly-box.bookly-nav-steps button,.boking_form .bookly-box.bookly-nav-steps button{
+    background: #E43337 !important;
+    min-width: auto !important;
+    padding: 17px 70px !important;
+    margin-right: 0;
+    letter-spacing: 1px;
+}
+.boking_form .bookly-form .bookly-service-step .bookly-box.bookly-nav-steps button:hover,.boking_form .bookly-box.bookly-nav-steps button:hover{
+    background: #DE0B0B !important;
+}
+.boking_form .bookly-form .bookly-service-step .bookly-box.bookly-nav-steps button span,.boking_form .bookly-box.bookly-nav-steps button span{
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    text-transform: capitalize !important;
+}
+.boking_form .bookly-form .bookly-service-step .bookly-week-days input[type='checkbox']:checked + label,.boking_form .bookly-form .bookly-repeat-step .bookly-week-days input[type='checkbox']:checked + label {
+     background-color: #E43337 !important;
+}
+.boking_form .bookly-form .bookly-progress-tracker .step{
+    height: 5px !important;
+}
+.boking_form .bookly-form .bookly-columnizer .bookly-hour:hover {
+    border: 2px solid #E43337 !important;
+    color: #E43337 !important;
+}
+.boking_form .bookly-form .bookly-form-group .bookly-label-error{
+    color: #E43337 !important;
+}
+.boking_form .bookly-form .bookly-columnizer .bookly-day,.boking_form .bookly-form .bookly-schedule-date{
+    background: #E43337 !important;
+    border: 1px solid #E43337 !important;
+}
+.bookly-time-next,.bookly-time-prev{
+    height: auto !important;
+}
+@media (max-width: 650px){
+    .boking_form .bookly-form .bookly-service-step .bookly-box > .bookly-left.bookly-mobile-float-none,.boking_form .bookly-form .bookly-service-step .bookly-box .bookly-left.bookly-mobile-float-none.bookly-time-range{
+        width: 100%;
+    }
+}
+
+.round_circle{
+    width: 85px !important;
+    height: 85px;
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 66, 66, 0.1) 100%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+}
+.custom_video_inner .elementor-widget-wrap{
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: 0;
+}
+@media (max-width: 1366px){
+    .custom_video_inner .elementor-widget-wrap {
+        max-width: 576px;
+    }
+}
+@media (max-width: 1024px){
+    .custom_video_inner .elementor-widget-wrap {
+        max-width: 100%;
+    }
+}
+@media (max-width: 880px){
+    .feedback_slider_inner.d-flex{
+        display: block !important;
+        max-width: 540px;
+        margin: 0 auto;
+    }
+    .feedback_slider_inner .feedback_author_img,.feedback_slider_inner .feedback_content{
+        width: 100%;
+    }
 }

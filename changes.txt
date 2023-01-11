@@ -1,3 +1,10 @@
+----- 1.0.4 (11 Janu  2023) -----
+New : Add New 02 Home Page
+New : Integration Bookly Plugin
+update :Demo content updated
+Update : Compatible WordPress & Woocommerces latest version 
+
+
 ----- 1.0.3 (21 Sep  2022) -----
 Updated : Compatible with latest Elementor version
 Added : Droit Dark Mode Plugin

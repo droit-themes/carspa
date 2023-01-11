@@ -64,11 +64,13 @@ function carspa_resister_required_plugin() {
 			'external_url'       => '', // If set, overrides default API URL and points to an external URL.
 			'is_callable'        => '', // If set, this callable will be be checked for availability to determine if a plugin is active.
 		),
+
 		array(
 			'name'               => esc_html__( 'Redux Framework', 'carspa' ),
 			'slug'               => 'redux-framework',
 			'required'           => true,
 		),
+
 		array(
 			'name'               => esc_html__( 'Advanced Custom Fields', 'carspa' ),
 			'slug'               => 'advanced-custom-fields',
@@ -84,6 +86,12 @@ function carspa_resister_required_plugin() {
 		array(
 			'name'      => esc_html__( 'WooCommerce', 'carspa' ),
 			'slug'      => 'woocommerce',
+			'required'  => false,
+		),
+
+		array(
+			'name'      => esc_html__( 'Bookly - Online Booking and Scheduling', 'carspa' ),
+			'slug'      => 'bookly-responsive-appointment-booking-tool',
 			'required'  => false,
 		),
 	);

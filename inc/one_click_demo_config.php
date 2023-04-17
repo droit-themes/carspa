@@ -6,12 +6,27 @@ function carspa_import_files() {
     return array(
 
         array(
-            'import_file_name'             => esc_html__('All Demos', 'carspa'),
+            'import_file_name'             => esc_html__('Light Demos', 'carspa'),
             'local_import_file'            => trailingslashit( get_template_directory() ) . 'inc/demos/contents.xml',
             'local_import_widget_file'     => trailingslashit( get_template_directory() ) . 'inc/demos/widgets.wie',
-            'import_preview_image_url'     => trailingslashit( get_template_directory_uri() ).'inc/demos/screenshot.jpg',
+            'import_preview_image_url'     => trailingslashit( get_template_directory_uri() ).'inc/demos/screenshot.png',
             'import_notice'                => 'All Page Demos',
             'preview_url'                  => 'https://carspa.droitlab.com/',
+            'local_import_redux'           => array(
+                array(
+                    'file_path'   => trailingslashit( get_template_directory() ) . 'inc/demos/settings.json',
+                    'option_name' => 'carspa_opt',
+                ),
+            ),
+        ),
+
+        array(
+            'import_file_name'             => esc_html__('Dark Demos', 'carspa'),
+            'local_import_file'            => trailingslashit( get_template_directory() ) . 'inc/demos/contents_dark.xml',
+            'local_import_widget_file'     => trailingslashit( get_template_directory() ) . 'inc/demos/widgets.wie',
+            'import_preview_image_url'     => trailingslashit( get_template_directory_uri() ).'inc/demos/screenshot.png',
+            'import_notice'                => 'All Page Demos',
+            'preview_url'                  => 'https://carspa.droitlab.com/dark',
             'local_import_redux'           => array(
                 array(
                     'file_path'   => trailingslashit( get_template_directory() ) . 'inc/demos/settings.json',

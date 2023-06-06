@@ -1,8 +1,13 @@
+----- 1.0.6 (06 June 2023) -----
+update :Demo content updated
+Update : Compatible WordPress & Woocommerces latest version
+update : carspa-core plugin URL updated
+
+
 ----- 1.0.5 (11 Janu  2023) -----
 New : RTL Supported 
 update :Demo content updated
 Update : Compatible WordPress & Woocommerces latest version 
-
 
 
 ----- 1.0.4 (11 Janu  2023) -----

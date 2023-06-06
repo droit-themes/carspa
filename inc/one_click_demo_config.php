@@ -11,7 +11,7 @@ function carspa_import_files() {
             'local_import_widget_file'     => trailingslashit( get_template_directory() ) . 'inc/demos/widgets.wie',
             'import_preview_image_url'     => trailingslashit( get_template_directory_uri() ).'inc/demos/screenshot.png',
             'import_notice'                => 'All Page Demos',
-            'preview_url'                  => 'https://carspa.droitlab.com/',
+            'preview_url'                  => 'https://dlcarspa.droitlab.com/',
             'local_import_redux'           => array(
                 array(
                     'file_path'   => trailingslashit( get_template_directory() ) . 'inc/demos/settings.json',
@@ -26,7 +26,7 @@ function carspa_import_files() {
             'local_import_widget_file'     => trailingslashit( get_template_directory() ) . 'inc/demos/widgets.wie',
             'import_preview_image_url'     => trailingslashit( get_template_directory_uri() ).'inc/demos/screenshot.png',
             'import_notice'                => 'All Page Demos',
-            'preview_url'                  => 'https://carspa.droitlab.com/dark',
+            'preview_url'                  => 'https://dlcarspa.droitlab.com/dark',
             'local_import_redux'           => array(
                 array(
                     'file_path'   => trailingslashit( get_template_directory() ) . 'inc/demos/settings.json',

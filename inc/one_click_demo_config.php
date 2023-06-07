@@ -15,7 +15,7 @@ function carspa_import_files() {
             'local_import_redux'           => array(
                 array(
                     'file_path'   => trailingslashit( get_template_directory() ) . 'inc/demos/settings.json',
-                    'option_name' => 'carspa_opt',
+                    'option_name' => 'carspa',
                 ),
             ),
         ),
@@ -30,7 +30,7 @@ function carspa_import_files() {
             'local_import_redux'           => array(
                 array(
                     'file_path'   => trailingslashit( get_template_directory() ) . 'inc/demos/settings.json',
-                    'option_name' => 'carspa_opt',
+                    'option_name' => 'carspa',
                 ),
             ),
         ),
@@ -48,7 +48,7 @@ function carspa_after_import_setup() {
     );
 
     // Assign front page and posts page (blog page).
-    $front_page_id = get_page_by_title( 'Home One' );
+    $front_page_id = get_page_by_title( 'Home 01' );
     $blog_page_id  = get_page_by_title( 'Blog Page' );
 
     // Disable Elementor's Default Colors and Default Fonts

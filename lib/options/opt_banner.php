@@ -2,7 +2,7 @@
 
 Redux::set_section('carspa', array(
     'title'            => esc_html__( 'Banner Setting', 'carspa' ),
-    'id'               => 'headers_typo_opt',
+    'id'               => 'headers_banner_opt',
     'icon'             => 'el el-picture',
 ));
 

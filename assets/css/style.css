@@ -6601,7 +6601,7 @@ textarea.form-control-lg {
 }
 
 .navbar .navbar-collapse {
-    flex: 1;
+    margin: auto;
     width: auto;
 }
 
@@ -6610,7 +6610,7 @@ textarea.form-control-lg {
 }
 
 .menu > .nav-item {
-    margin-left: 30px;
+    margin-left: 45px;
     position: relative;
     padding-bottom: 13px;
     padding-top: 13px;
@@ -9488,6 +9488,7 @@ a:visited {
 
 .text-white .post-meta span:not(:last-child):after {
     background: #fff;
+    display: none;
 }
 
 .text-white .post-meta a {

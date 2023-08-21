@@ -9,6 +9,12 @@
  * @since carspa 1.0
  */
 
+ $opt = get_option( 'carspa' );
+$post_title_length = isset($opt['post_title_length']) ? $opt['post_title_length'] : '';
+$is_post_date = isset($opt['is_post_date']) ? $opt['is_post_date'] : '1';
+$is_post_author = isset($opt['is_post_author']) ? $opt['is_post_author'] : '1';
+
+
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class('blog_post_item zoom_in_effect'); ?>>
@@ -26,11 +32,11 @@
         <div class="post-title entry-title">
             <div class="post-meta">
             <?php 
-            carspa_posted_on();
-            carspa_posted_by();
+             if($is_post_date == 1):  carspa_posted_on(); endif;
+             if($is_post_author == 1):  carspa_posted_by(); endif;
             ?>
             </div>
-            <?php   the_title( sprintf( ' <h2 class="entry-title blog_title"><a href="%s">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
+            <h2 class="entry-title blog_title"><a href="<?php the_permalink(); ?>"><?php echo wp_trim_words(get_the_title(), $post_title_length); ?></a></h2>
         </div>
 
 

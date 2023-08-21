@@ -9,4 +9,8 @@
  * @since carspa 1.0
  */
 
-the_excerpt();
+ $opt = get_option( 'carspa' );
+ $blog_excerpt = isset($opt['blog_excerpt']) ? $opt['blog_excerpt'] : '';
+ 
+ 
+ echo wp_trim_words(get_the_excerpt(), $blog_excerpt);

@@ -1,18 +1,8 @@
 <?php
-// Header Section
-Redux::set_section( 'carspa', array(
-    'title'            => esc_html__( 'Style', 'carspa' ),
-    'id'               => 'carspa_style_sec',
-    'customizer_width' => '400px',
-    'icon'             => 'el el-brush',
-));
-
 // color 
-
 Redux::set_section( 'carspa', array(
-    'title'            => esc_html__( 'Color', 'carspa' ),
+    'title'            => esc_html__( 'Theme Color', 'carspa' ),
     'id'               => 'carspa_color_opt',
-    'subsection'       => true,
     'icon'             => 'el el-cogs',
     'fields'           => array(
       

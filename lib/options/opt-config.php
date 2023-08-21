@@ -22,10 +22,13 @@ if ( ! defined( 'ABSPATH' ) ) {
     Redux::setArgs( $opt_name, $args );
 
 	require CARSPA_THEMEROOT_DIR . '/lib/options/opt_header.php';
+    require CARSPA_THEMEROOT_DIR . '/lib/options/opt_menu.php';
 	require CARSPA_THEMEROOT_DIR . '/lib/options/opt_banner.php';
 	require CARSPA_THEMEROOT_DIR . '/lib/options/opt_banner_search.php';
 	require CARSPA_THEMEROOT_DIR . '/lib/options/opt_banner_404.php';
 	require CARSPA_THEMEROOT_DIR . '/lib/options/opt_blog.php';
 	require CARSPA_THEMEROOT_DIR . '/lib/options/opt_page.php';
-	require CARSPA_THEMEROOT_DIR . '/lib/options/opt_style.php';
+    require CARSPA_THEMEROOT_DIR . '/lib/options/opt_404.php';
+	require CARSPA_THEMEROOT_DIR . '/lib/options/opt_typo.php';
+    require CARSPA_THEMEROOT_DIR . '/lib/options/opt_style.php';
 	require CARSPA_THEMEROOT_DIR . '/lib/options/opt_footer.php';

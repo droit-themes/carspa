@@ -8,32 +8,30 @@
  */
 
 get_header();
-
-$blog_sidebar = carspa_options('carspa_blog_setting');
-
+$opt = get_option('carspa');
+$error_heading  =!empty($opt['error_heading']) ?  $opt['error_heading'] : esc_html__('404', 'carspa');
+$error_title = !empty($opt['error_title']) ? $opt['error_title'] : esc_html__('Page not found', 'carspa');
+$error_subtitle = !empty($opt['error_subtitle']) ? $opt['error_subtitle'] : esc_html__("We can't seem to find the page you're looking for", "carspa");
+$error_home_btn_label  =!empty($opt['error_home_btn_label']) ?  $opt['error_home_btn_label'] : esc_html__('Go Back to home Page', 'carspa');
 ?>
-
-	<main id="primary" class="site-main">
-	     <?php
-			get_template_part('template-parts/banner/banner', '404');
-
-			carspa_wrapper_start( $blog_sidebar );		
-	 	?>
-		
-		
-		<section class="error-404 not-found">
-			<header class="page-header">
-				<h1 class="page-title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'carspa' ); ?></h1>
-			</header><!-- .page-header -->
-
-			<div class="page-content">
-				<p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'carspa' ); ?></p>
-
-					<?php get_search_form(); ?>
-			</div><!-- .page-content -->
-		</section><!-- .error-404 -->
-         <?php carspa_wrapper_end($blog_sidebar); ?>
-	</main><!-- #main -->
+<section class="error_section section_padding event_details">
+    <div class="container custom_container">
+        <div class="row error_contain text-center">
+	        <div class="col-sm-12 col-sm-12">
+		        <div class="event_section_content">
+		            <div class="b_text">
+		                <h1 class="f_p w_color f_700"><?php echo carspa_extention_wp_kses( $error_heading ); ?></h1>
+		            </div>
+		            <h2 class="f_p f_400 w_color f_size_40"><?php echo carspa_extention_wp_kses( $error_title );  ?></h2>
+		            <p class="w_color f_400"><?php echo carspa_extention_wp_kses( $error_subtitle );  ?></p>
+		            <a href="<?php echo esc_url(home_url('/')) ?>" class="error_btn btn_hover mt_40">
+		                <?php echo carspa_extention_wp_kses( $error_home_btn_label );  ?>
+		            </a>
+		        </div>
+	    	</div>
+        </div> 
+    </div>
+</section>
 
 <?php
-get_footer();
+// get_footer();

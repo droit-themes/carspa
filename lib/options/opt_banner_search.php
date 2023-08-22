@@ -23,7 +23,7 @@ Redux::set_section('carspa', array(
             'type'      => 'color_rgba',
             'title'     => 'Banner Overly Color',
             'mode'      => 'background',
-            'output'    => array( '.blog-breadcrumbs-area-two.archive-banner .overlay_bg' ),
+            'output'    => array( '.blog-breadcrumbs-area-two.banner_search .overlay_bg' ),
             'default'   => array(
                 'color'     => '#000',
                 'alpha'     => .5

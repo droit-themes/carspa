@@ -53,7 +53,6 @@ Redux::set_section('carspa', array(
                 'url'=> CARSPA_IMAGES.'/blog/banner/blog_details_img.jpg',
             ),
             'url'      => false
-
         ),
         array(
             'id'        => 'carspa_page_banner_overly',
@@ -130,7 +129,7 @@ Redux::set_section('carspa', array(
             'type'      => 'color_rgba',
             'title'     => 'Banner Overly Color',
             'mode'      => 'background',
-            'output'    => array( '.blog-breadcrumbs-area-two .overlay_bg' ),
+            'output'    => array( '.blog-breadcrumbs-area-two.blog_page .overlay_bg' ),
             'default'   => array(
                 'color'     => '#000',
                 'alpha'     => .5
@@ -268,7 +267,7 @@ Redux::set_section('carspa', array(
             'type'      => 'color_rgba',
             'title'     => 'Banner Overly Color',
             'mode'      => 'background',
-            'output'    => array( '.blog-breadcrumbs-area-two.search-banner .overlay_bg' ),
+            'output'    => array( '.blog-breadcrumbs-area-two.archive .overlay_bg' ),
             'default'   => array(
                 'color'     => '#000',
                 'alpha'     => .5

@@ -19,13 +19,13 @@ if(!class_exists('Redux')){
 ?>
 
 <?php if($banner_background_url != '') :  ?>
-<div class="blog-breadcrumbs-area-two parallaxie" data-bg-img="<?php echo esc_url($banner_background_url); ?>">
+<div class="blog-breadcrumbs-area-two archive parallaxie" data-bg-img="<?php echo esc_url($banner_background_url); ?>">
 <div class="overlay_bg"></div>
  <?php else: ?>
-<div class="blog-breadcrumbs-area-two banner-with-color">
+<div class="blog-breadcrumbs-area-two archive archive banner-with-color">
 <?php endif; ?>
     <div class="container">
-        <div class="breadcrumb_content text-white text-center">
+        <div class="breadcrumb_content archive text-white text-center">
             <?php if(have_posts() && $how_title == 'show') {
                         the_archive_title( '<h1 class="page-title page_title">', '</h1>' );
                     }

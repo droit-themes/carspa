@@ -26,7 +26,7 @@ if($show_banner == 'show') :
 ?>
 
 <?php if($banner_background_url != '') :  ?>
-<div class="blog-breadcrumbs-area-two parallaxie" data-bg-img="<?php echo esc_url($banner_background_url); ?>">
+<div class="blog-breadcrumbs-area-two blog-single-page parallaxie" data-bg-img="<?php echo esc_url($banner_background_url); ?>">
 <div class="overlay_bg"></div>
 <?php else: ?>
 <div class="blog-breadcrumbs-area-two banner-with-color">

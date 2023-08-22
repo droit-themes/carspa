@@ -13,14 +13,13 @@ if(!class_exists('Redux')){
 ?>
 
 <?php if($banner_background_url != '') :  ?>
-<div class="blog-breadcrumbs-area-two parallaxie" data-bg-img="<?php echo esc_url($banner_background_url); ?>">
+<div class="blog-breadcrumbs-area-two banner_search parallaxie" data-bg-img="<?php echo esc_url($banner_background_url); ?>">
 <div class="overlay_bg"></div>
 <?php else: ?>
-<div class="blog-breadcrumbs-area-two banner-with-color">
+<div class="blog-breadcrumbs-area-two banner_search banner-with-color">
 <?php endif; ?> 
         <div class="container">
             <div class="breadcrumb_content text-white text-center">
-              
                 <h1 class="page-title">
                     <?php
                     /* translators: %s: search query. */

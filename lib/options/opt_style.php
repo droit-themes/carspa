@@ -3,7 +3,7 @@
 Redux::set_section( 'carspa', array(
     'title'            => esc_html__( 'Theme Color', 'carspa' ),
     'id'               => 'carspa_color_opt',
-    'icon'             => 'el el-cogs',
+    'icon'             => 'el el-lines',
     'fields'           => array(
       
         array(

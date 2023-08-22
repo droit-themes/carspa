@@ -1,19 +1,9 @@
 <?php
-// Header Section
-Redux::set_section( 'carspa', array(
-    'title'            => esc_html__( 'Header', 'carspa' ),
-    'id'               => 'carspa_header_sec',
-    'customizer_width' => '400px',
-    'icon'             => 'el el-lines',
-));
-
-
 // Logo
 Redux::set_section( 'carspa', array(
-    'title'            => esc_html__( 'Logo', 'carspa' ),
+    'title'            => esc_html__( 'Header Logo', 'carspa' ),
     'id'               => 'carspa_logo_opt',
-    'subsection'       => true,
-    'icon'             => '',
+    'icon'             => 'el el-lines',
     'fields'           => array(
         array(
             'title'     => esc_html__( 'Upload logo', 'carspa' ),
@@ -69,23 +59,3 @@ Redux::set_section( 'carspa', array(
         ),
     )
 ) );
-
-Redux::set_section( 'carspa', array(
-    'title'            => esc_html__( 'Menu Setting', 'carspa' ),
-    'id'               => 'carspa_menu_setting',
-    'icon'             => '',
-    'subsection'       => true,
-    'fields'           => array(
-         array(
-            'id'       => 'carspa_searchicon_toggle',
-            'type'     => 'button_set',
-            'title'    => esc_html__('Show Search Icon', 'carspa'),
-            'options' => array(
-                'yes' => esc_html__('Yes', 'carspa'), 
-                'no' => esc_html__('No', 'carspa'), 
-             ), 
-            'default' => 'yes'
-        )
-
-    )
-));

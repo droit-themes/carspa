@@ -10,7 +10,6 @@ if ( ! defined( 'ABSPATH' ) ) {
     $opt_name = 'carspa';
 
     $theme = wp_get_theme(); // For use with some settings. Not necessary.
-
    
     $args = array(
         'display_name'         => $theme->get( 'Name' ),

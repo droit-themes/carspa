@@ -1,9 +1,9 @@
 <?php
 // page Title Bar
 Redux::set_section('carspa', array(
-	'title'     => esc_html__( 'Footer', 'carspa' ),
+	'title'     => esc_html__( 'Footer Settings', 'carspa' ),
 	'id'        => 'carspa_footer',
-	'icon'      => 'dashicons dashicons-admin-post',
+	'icon'      => 'el el-lines',
 	'fields'    => array(
         array(
             'id'       => 'is_defult_footer',

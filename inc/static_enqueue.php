@@ -25,9 +25,22 @@ function carspa_fonts_url() {
     return $fonts_url;
 }
 
+/**
+     * Enqueueing Stylesheets
+     */
+	$opt = get_option('carspa');
+    $font_load = 1;
+    if ( class_exists('Redux') ) {
+        $font_load = !empty( $opt['is_default_font'] ) ? 1 : '';
+    }
+    if ( $font_load == 1 ) {
+        wp_enqueue_style( 'carspafonts' );
+    }
+
 
 function carspa_scripts() {
     wp_enqueue_style('carspafonts', carspa_fonts_url(), array(), null);
+
     
 	wp_enqueue_style( 'carspa-style', get_stylesheet_uri(), array(), CARSPA_VERSION );
 	wp_style_add_data( 'carspa-style', 'rtl', 'replace' );
@@ -51,6 +64,73 @@ function carspa_scripts() {
 
 
     wp_deregister_style('extendify-utilities');
+
+
+    $dynamic_css = '';
+   
+    
+    $opt = get_option('carspa');
+
+    if ( !empty($opt['mobile_menu_dropdown_bg']) ) {
+        $dynamic_css .= "
+            @media (max-width: 991px) {
+                .navbar .navbar-collapse{
+                    background: {$opt['mobile_menu_dropdown_bg']} !important;
+                }
+            }";
+    }
+
+    if ( !empty($opt['mobile_menu_font_color']) ) {
+        $dynamic_css .= "
+            @media (max-width: 991px) {
+                .menu > .nav-item .nav-link, .menu > .nav-item.mega_menu{
+                    color: {$opt['mobile_menu_font_color']} !important;
+                }
+            }";
+    }
+
+    if ( !empty($opt['mobile_menu_hover_color']) ) {
+        $dynamic_css .= "
+            @media (max-width: 991px) {
+                .menu > .nav-item.active .nav-link{
+                    color: {$opt['mobile_menu_hover_color']} !important;
+                }
+                .menu > .nav-item.hover .nav-link{
+                    color: {$opt['mobile_menu_hover_color']} !important;
+                }
+            }";
+    }
+
+
+    if ( !empty($opt['mobile_menu_dropdown_color']) ) {
+        $dynamic_css .= "
+            @media (max-width: 991px) {
+                .menu > .nav-item .mobile_dropdown_icon{
+                    color: {$opt['mobile_menu_dropdown_color']} !important;
+                }
+            }";
+    }
+
+    if ( !empty($opt['hamburger_menu_icon_color']) ) {
+        $dynamic_css .= "
+            @media (max-width: 991px) {
+                .navbar-toggler span{
+                    background: {$opt['hamburger_menu_icon_color']} !important;
+                }
+            }";
+    }
+
+    if ( !empty($opt['hamburger_menu_icon_color_sticky']) ) {
+        $dynamic_css .= "
+            @media (max-width: 991px) {
+                .navbar_fixed .navbar-toggler span{
+                    background: {$opt['hamburger_menu_icon_color_sticky']} !important;
+                }
+            }";
+    }
+
+
+    wp_add_inline_style( 'carspa-style', $dynamic_css );
 
 }
 add_action( 'wp_enqueue_scripts', 'carspa_scripts' );

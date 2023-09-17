@@ -241,8 +241,6 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
 }
 .navbar ul{
     margin-top: 0;
@@ -6598,6 +6596,13 @@ textarea.form-control-lg {
     padding: 0px;
     background: #fff;
     z-index: 99;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar_fixed .navbar{
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 .navbar .navbar-collapse {
@@ -7432,7 +7437,7 @@ textarea.form-control-lg {
 }
 
 .sidebar_right {
-    padding-left: 70px !important;
+    padding-left: 40px !important;
 }
 
 @media (max-width: 1199px) {
@@ -7565,6 +7570,7 @@ textarea.form-control-lg {
     font-weight: 400;
     color: #899097;
     text-transform: uppercase;
+    margin-top: 15px;
 }
 
 .media_blog_content .post_bottom .learn_btn_two {
@@ -7593,15 +7599,6 @@ textarea.form-control-lg {
     color: #899097;
     font-size: 16px;
     padding-bottom: 10px;
-}
-
-.post-meta span:not(:last-child):after {
-    content: "";
-    width: 1px;
-    height: 12px;
-    background: #899097;
-    display: inline-block;
-    margin: 0px 6px 0px 9px;
 }
 
 .post-meta span span::after {

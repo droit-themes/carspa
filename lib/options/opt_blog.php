@@ -34,6 +34,16 @@ Redux::set_section('carspa', array(
         ),
         'default' => 'right'
     ),
+
+    array(
+        'title'     => esc_html__( 'Blog Format', 'carspa' ),
+        'id'        => 'defult_blog_format',
+        'type'      => 'switch',
+        'on'        => esc_html__( 'Grid Style', 'carspa' ),
+        'off'       => esc_html__( 'List Style', 'carspa' ),
+        'default'   => 'off',
+    ),
+
     array( 
         'id' => 'carspa_read_more_text_button',
         'title'    => __('Read More Button Text', 'carspa'), 

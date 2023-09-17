@@ -51,7 +51,10 @@ require CARSPA_THEMEROOT_DIR . '/inc/breadcrumbs.php';
 /**
  * carspa Tgm
  */
-require CARSPA_THEMEROOT_DIR . '/inc/plugin_activation.php';
+
+require CARSPA_THEMEROOT_DIR . '/inc/tgm/class-plugins.php';
+require CARSPA_THEMEROOT_DIR . '/inc/tgm/tgm-plugin-activation.php';
+require CARSPA_THEMEROOT_DIR . '/inc/tgm/tgm-plugin-registration.php';
 
 
 /**

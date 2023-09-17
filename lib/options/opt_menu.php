@@ -15,6 +15,30 @@ Redux::setSection('carspa', array(
             ),
             'type'      => 'color',
         ),
+
+        array(
+            'id'          => 'menu_typo',
+            'type'        => 'typography',
+            'title'       => __('Typography', 'carspa'),
+            'google'      => true,
+            'font-backup' => true,
+            'color'       => false,
+            'output'      => array('.menu > .nav-item > .nav-link'),
+            'units'       => 'px',
+        ),
+
+        array(
+            'id'          => 'menu_submenu_typo',
+            'type'        => 'typography',
+            'title'       => __('Submenu Typography', 'carspa'),
+            'google'      => true,
+            'font-backup' => true,
+            'color'       => false,
+            'output'      => array('.menu > .nav-item.submenu .dropdown-menu .nav-item'),
+            'units'       => 'px',
+        ),
+
+
         array(
             'title'     => esc_html__('Menu Item Color', 'carspa'),
             'subtitle'  => esc_html__('Menu item font color', 'carspa'),
@@ -31,6 +55,16 @@ Redux::setSection('carspa', array(
             'id'        => 'menu_hover_active_font_color',
             'output'    => array(
                 'color'     => '.menu > .nav-item.active .nav-link, .menu > .nav-item:hover .nav-link',
+            ),
+            'type'      => 'color',
+        ),
+
+        array(
+            'title'     => esc_html__('Menu Active/Hover Bar Color', 'carspa'),
+            'subtitle'  => esc_html__('Menu item Active/Hover Bar Color mode', 'carspa'),
+            'id'        => 'menu_hover_active_bar_color',
+            'output'    => array(
+                'background'     => '.menu > .nav-item > .nav-link:before',
             ),
             'type'      => 'color',
         ),
@@ -127,6 +161,16 @@ Redux::setSection('carspa', array(
             'type'      => 'color',
         ),
 
+        array(
+            'title'     => esc_html__('Hover Menu Color', 'carspa'),
+            'subtitle'  => esc_html__('Menu item font color on sticky Active menu mode.', 'carspa'),
+            'id'        => 'sub_menu_hover_font_color',
+            'output'    => array(
+                'color' => '.menu > .nav-item.submenu .dropdown-menu .nav-item:hover > .nav-link',
+            ),
+            'type'      => 'color',
+        ),
+
     
     )
 ));
@@ -166,6 +210,18 @@ Redux::set_section( 'carspa', array(
         array (
             'title'     => esc_html__( 'Hamburger Menu Icon Color', 'carspa' ),
             'id'        => 'hamburger_menu_icon_color',
+            'output'    => array(
+                'background' => '.navbar-toggler span',
+            ),
+            'type'      => 'color',
+        ),
+
+        array (
+            'title'     => esc_html__( 'Hamburger Menu Icon Color Sticky', 'muffle' ),
+            'id'        => 'hamburger_menu_icon_color_sticky',
+            'output'    => array(
+                'background' => '.navbar-toggler span',
+            ),
             'type'      => 'color',
         ),
     

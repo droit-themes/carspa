@@ -3,7 +3,7 @@
 Redux::set_section( 'carspa', array(
     'title'            => esc_html__( 'Typography', 'carspa' ),
     'id'               => 'carspa_typo_opt',
-    'icon'             => 'el el-lines',
+    'icon'             => 'dashicons dashicons-editor-textcolor',
     'fields'           => array(
 
         array(

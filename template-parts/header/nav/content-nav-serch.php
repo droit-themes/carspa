@@ -1,29 +1,21 @@
 <?php
- 
- $display_search = carspa_options('carspa_searchicon_toggle', 'yes');
+  $opt = get_option('carspa');
 
- if($display_search =='yes') : 
-
-$carspa_unique_id = wp_unique_id( 'search-form-' );
-$carspa_aria_label = ! empty( $args['aria_label'] ) ? 'aria-label="' . esc_attr( $args['aria_label'] ) . '"' : '';
+  $display_search  = isset( $opt['is_menu_btn']) ? $opt['is_menu_btn'] : '';
+  $menu_btn_label  = isset( $opt['menu_btn_label']) ? $opt['menu_btn_label'] : '';
+  $menu_btn_url    = isset( $opt['menu_btn_url']) ? $opt['menu_btn_url'] : '';
+  $is_target_blank    = isset( $opt['is_target_blank']) ? $opt['is_target_blank'] : '';
 
 ?>
-<ul class="navbar-nav search_cart">
-    <li class="nav-item search"><a class="nav-link search-btn" href="javascript:void(0);"><i
-                class="icon-search"></i></a>
-        <form action="<?php echo esc_url( home_url( '/' ) ); ?>" method="get" class="menu-search-form" <?php echo carspa_return($carspa_aria_label); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- Escaped above. ?>>
-            <div class="input-group">
-                <input type="search" class="form-control" placeholder="<?php echo esc_attr_e( 'Search...', 'carspa' ) ?>" id="<?php echo esc_attr( $carspa_unique_id ); ?>" value="<?php echo get_search_query(); ?>" name="s">
-                <button type="submit"><i class="ti-arrow-right"></i></button>
-            </div>
-        </form>
-    </li>
-</ul>
+<?php if(class_exists( 'Redux' ) &&  $display_search =='yes' ) { ?>
+    <div class="header_area nav_bar">
+    <a class="btn_get btn-meta btn_hover" <?php if($is_target_blank == 1): ?> target="_blank" <?php endif; ?> href="<?php echo esc_url($menu_btn_url); ?>"><?php echo carspa_kses($menu_btn_label); ?></a>
+</div>
+
+<?php } ?>
 <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
     aria-expanded="false" aria-label="Toggle navigation">
     <span></span><span></span><span></span><span></span><span></span><span></span>
 </button>
 
-<?php 
-endif;

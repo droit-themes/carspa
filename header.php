@@ -8,7 +8,7 @@
  *
  * @package carspa
  */
-
+$sticky = carspa_options('is_sticky', 'show');
 ?>
 <!doctype html>
 <html <?php language_attributes(); ?>>
@@ -34,7 +34,7 @@
             echo \Elementor\Plugin::instance()->frontend->get_builder_content_for_display( $header_id );
         }else{
     ?>
-    <header id="masthead" class="site-header sticky_nav">
-        <?php get_template_part( 'template-parts/header/nav/content',  'nav'); ?>
+    <header id="masthead" class="site-header <?php if($sticky == 'yes'){echo "sticky_nav";}else{echo "";} ?>">
+        <?php  get_template_part( 'template-parts/header/nav/content',  'nav'); ?>        
 	</header><!-- #masthead -->
 <?php } ?>

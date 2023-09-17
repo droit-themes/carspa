@@ -14,7 +14,7 @@ if ( ! defined( 'ABSPATH' ) ) {
     $args = array(
         'display_name'         => $theme->get( 'Name' ),
         'display_version'      => $theme->get( 'Version' ),
-        'menu_title'           => esc_html__( 'Theme Settings', 'singleland' ),
+        'menu_title'           => esc_html__( 'Theme Settings', 'carspa' ),
         'customizer'           => true,
 		'dev_mode'             => false,
 		'forced_dev_mode_off'  => true,

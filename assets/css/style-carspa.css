@@ -972,7 +972,7 @@ a.comment_link{
 	outline: none;
 	color: #EE3131;
 	background-color: #ffffff;
-	border: 2px solid #EE3131;
+	border: 2px solid #1e73be;
 	line-height: 1;
 	font-size: 16px;
 	overflow: hidden;
@@ -1029,3 +1029,47 @@ i.fas.fa-user {
     margin-right: 10px;
     margin-left: 15px;
 }
+
+.blog_grid .blog_grid_masonory.style_5 .blog_grid_masonory_content{
+	padding: 0;
+}
+.blog_grid .blog_grid_masonory.style_5 .post_thumb{
+	border-radius: 0;
+}
+
+.blog_grid{
+	margin-bottom: 30px;
+}
+
+
+
+.btn_get {
+	font-weight: 700;
+	font-size: 16px;
+	background: transparent;
+	border-radius: 5px;
+	padding: 15px 40px;
+	color: #ffffff;
+	border: 1px solid #ffffff;
+	text-decoration: none;
+	background-color: #FF5F5F;
+  }
+  .btn_get:hover{
+	color: #000000;
+  }
+  
+  .navbar_fixed .btn_get {
+	background: #000000;
+	border-radius: 5px;
+	padding: 15px 40px;
+	color: #ffffff;
+	border: 1px solid #000000;
+  }
+
+  .site-header {
+	height: 75px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	width: 100%;
+  }

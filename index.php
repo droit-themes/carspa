@@ -56,15 +56,17 @@ $blog_sidebar = carspa_options('carspa_blog_setting');
 		?>
 		<div class="dl_col_lg_6 dl_col_sm_ blog_grid">
 			<div class="droit-post__area blog_grid_masonory style_5 zoom_in_effect">
-				<a href="#" class="post_thumb">
-					<div class="droit-post__thumbnail">
-						<?php the_post_thumbnail(); ?>
-					</div>
-				</a>
+				<?php if ( has_post_thumbnail() ) : ?>
+					<a href="<?php the_permalink(); ?>" class="post_thumb">
+						<div class="droit-post__thumbnail">
+							<?php the_post_thumbnail(); ?>
+						</div>
+					</a>
 				<?php
 					$category = get_the_category();
 				?>
 				<a href="<?php echo esc_url( get_category_link( $category[0]->term_id ) ); ?>" class="dl_tag droit-post__category"><?php echo  esc_html( $category[0]->cat_name ); ?></a>
+				<?php endif; ?>
 				<div class="blog_grid_masonory_content">		
 					<div class="entry-content media_blog_content">
 						<?php

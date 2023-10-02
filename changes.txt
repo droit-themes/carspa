@@ -1,3 +1,9 @@
+----- 1.0.8 (02 Oct 2023) -----
+update  : Demo content updated
+update  : Theme option updated
+update  : TGM Plugin active function updated
+updated : Compatibility with latest WordPress & Elementor
+
 ----- 1.0.7 (12 July 2023) -----
 Update : Compatible WordPress & Woocommerces latest version
 update : carspa-core plugin URL updated

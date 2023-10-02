@@ -24,7 +24,6 @@ $sticky = carspa_options('is_sticky', 'show');
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'carspa' ); ?></a>
     <?php
-
     global $post;
         $header_id = '';
         if (isset($post->ID) && function_exists('header_footer_template_id')) {

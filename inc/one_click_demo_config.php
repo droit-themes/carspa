@@ -20,21 +20,6 @@ function carspa_import_files() {
             ),
         ),
 
-        array(
-            'import_file_name'             => esc_html__('Dark Demos', 'carspa'),
-            'local_import_file'            => trailingslashit( get_template_directory() ) . 'inc/demos/contents_dark.xml',
-            'local_import_widget_file'     => trailingslashit( get_template_directory() ) . 'inc/demos/widgets.wie',
-            'import_preview_image_url'     => trailingslashit( get_template_directory_uri() ).'inc/demos/screenshot.png',
-            'import_notice'                => 'All Page Demos',
-            'preview_url'                  => 'https://dlcarspa.droitlab.com/dark',
-            'local_import_redux'           => array(
-                array(
-                    'file_path'   => trailingslashit( get_template_directory() ) . 'inc/demos/settings.json',
-                    'option_name' => 'carspa',
-                ),
-            ),
-        ),
-
     );
 }
 

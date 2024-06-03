@@ -1,3 +1,8 @@
+----- 1.0.9 (03 June 2024) -----
+update  : Theme option updated
+update  : TGM Plugin active function updated
+updated : Compatibility with latest WordPress & Elementor
+
 ----- 1.0.8 (02 Oct 2023) -----
 update  : Demo content updated
 update  : Theme option updated

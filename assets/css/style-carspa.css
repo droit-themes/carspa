@@ -1073,3 +1073,8 @@ i.fas.fa-user {
 	right: 0;
 	width: 100%;
   }
+
+
+  .dl_advance_slider{
+	overflow: hidden;
+  }
